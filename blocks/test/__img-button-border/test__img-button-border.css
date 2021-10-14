@@ -1,0 +1,12 @@
+.test__img-button-border {
+  position: absolute;
+  bottom: 25px;
+  right: 197px;
+}
+
+@media screen and (max-width: 959px) {
+  .test__img-button-border {
+    left: 445px;
+    bottom: 33px;
+  }
+}

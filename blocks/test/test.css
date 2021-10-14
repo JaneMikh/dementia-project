@@ -1,0 +1,13 @@
+.test {
+  margin-left: 64px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 959px) {
+  .test {
+    height: 180px;
+  }
+}

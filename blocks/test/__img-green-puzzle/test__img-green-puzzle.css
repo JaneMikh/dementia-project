@@ -1,0 +1,13 @@
+.test__img-green-puzzle {
+  position: absolute;
+  top: -30px;
+  left: 94px;
+}
+
+@media screen and (max-width: 959px) {
+  .test__img-green-puzzle {
+    left: 16px;
+    top: -120px;
+    width: 183px;
+  }
+}

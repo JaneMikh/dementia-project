@@ -1,0 +1,17 @@
+.test__header {
+  margin: 0;
+  width: 161px;
+  font-size: 29.46px;
+  line-height: 29.46px;
+  font-weight: 600;
+  text-align: right;
+  color: #6D097A;
+}
+
+@media screen and (max-width: 959px) {
+  .test__header {
+    font-size: 23.59px;
+    line-height: 23.59px;
+    width: 129px;
+  }
+}

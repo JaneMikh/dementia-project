@@ -1,0 +1,14 @@
+.definition__img {
+  position: absolute;
+  left: 258px;
+  top: -35px;
+  overflow: visible;
+}
+
+@media screen and (max-width: 959px) {
+  .definition__img {
+    left: 201px;
+    top: -27px;
+    width: 26.5%;
+  }
+}

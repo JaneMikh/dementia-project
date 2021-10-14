@@ -1,0 +1,17 @@
+.about__header {
+  margin: 90px auto 0;
+  font-size: 42.6px;
+  font-weight: 600;
+  font-family: 'GolosTextBold';
+  max-width: 320px;
+  max-height: 56px;
+  color: #6D097A;
+}
+
+@media screen and (max-width: 959px) {
+  .about__header {
+    font-size: 33.87px;
+    margin-top: 42px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.test__img-notebook {
+  position: absolute;
+  top: -86px;
+  left: 398px;
+  width: 383px;
+  height: 255px;
+  object-fit: cover;
+  object-position: 30%;
+}
+
+@media screen and (max-width: 959px) {
+  .test__img-notebook {
+    top: -203px;
+    left: 230px;
+    width: 53%;
+    height: 134%;
+  }
+}

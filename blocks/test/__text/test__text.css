@@ -1,0 +1,12 @@
+.test__text {
+  margin: 108px 65px 65px 194px;
+}
+
+@media screen and (max-width: 959px) {
+  .test__text {
+    margin: 0;
+    position: absolute;
+    top: -40px;
+    left: 74px;
+  }
+}

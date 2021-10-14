@@ -1,0 +1,14 @@
+.test__img-purple-puzzle {
+  position: absolute;
+  top: -15px;
+  left: -3px;
+}
+
+@media screen and (max-width: 959px) {
+  .test__img-purple-puzzle {
+    width: 44px;
+    height: 52px;
+    top: -133px;
+    left: -46px;
+  }
+}

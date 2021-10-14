@@ -1,0 +1,11 @@
+.definition__img-puzzle {
+  position: absolute;
+  top: 145px;
+  left: 51px;
+}
+
+@media screen and (max-width: 959px) {
+  .definition__img-puzzle {
+    top: 135px;
+  }
+}

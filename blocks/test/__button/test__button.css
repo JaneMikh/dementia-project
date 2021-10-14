@@ -1,0 +1,27 @@
+.test__button {
+  margin: 202px 0 50px 70.5px;
+  padding-top: 9px;
+  width: 184px;
+  height: 42.852px;
+  font-weight: 600;
+  font-size: 16.39px;
+  border: none;
+  overflow: visible;
+  color: #FEFEFE;
+  background-color: #FEFEFE;
+  background-image: url("../../../images/Button.svg");
+}
+
+.test__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 959px) {
+  .test__button {
+    margin: 0;
+    position: absolute;
+    top: 81px;
+    left: 280px;
+  }
+}

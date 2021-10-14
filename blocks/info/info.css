@@ -1,0 +1,6 @@
+.info {
+  max-width: 960px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

@@ -1,0 +1,21 @@
+.definition__paragraph {
+  margin: 21.5px 43px 27px 35.5px;
+  font-size: 9px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  line-height: 14px;
+  max-width: 250px;
+  height: 64px;
+  color: #6C1077;
+}
+
+@media screen and (max-width: 959px) {
+  .definition__paragraph {
+    margin: 16px 43px 21.7px 28.8px;
+    max-width: 161px;
+    font-size: 7px;
+    line-height: 11px;
+    letter-spacing: normal;
+  }
+}

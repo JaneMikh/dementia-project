@@ -1,0 +1,7 @@
+.header__section-links {
+  grid-area: article;
+  background-image: url(../../../images/pietro-schellino-MeQ6cKkozpY-unsplash\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}

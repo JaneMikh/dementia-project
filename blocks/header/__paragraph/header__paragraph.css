@@ -1,0 +1,7 @@
+.header__paragraph {
+  padding-top: 4px;
+}
+
+.header__paragraph:first-child {
+  padding-top: 0;
+}

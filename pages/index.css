@@ -1,43 +1,11 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__first-letter.css/header__first-letter.css);
-@import url(../blocks/header/__last-letter/header__last-letter.css);
-@import url(../blocks/header/__title-icon/header__title-icon.css);
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__title-shadow/header__title-shadow.css);
-@import url(../blocks/header/__section-icon/header__section-icon.css);
-@import url(../blocks/header/__title-icon/_type/header__title-icon_type_center.css);
-@import url(../blocks/header/__link/_type/header__link_type_button.css);
-@import url(../blocks/header/__section-title/header__section-title.css);
-@import url(../blocks/header/__title-text/header__title-text.css);
-@import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__link/_type/header__link_type_active.css);
-@import url(../blocks/header/__link-container/header__link-container.css);
-@import url(../blocks/header/__section-links/header__section-links.css);
-@import url(../blocks/header/__section-info/header__section-info.css);
-@import url(../blocks/header/__section-test/header__section-test.css);
-@import url(../blocks/header/__face-man/header__face-man.css);
-@import url(../blocks/header/__page-container/header__page-container.css);
-@import url(../blocks/header/__section-page/header__section-page.css);
-@import url(../blocks/header/__page/header__page.css);
-@import url(../blocks/header/__face-woman/header__face-women.css);
-@import url(../blocks/header/__cloud-small/header__cloud-small.css);
-@import url(../blocks/header/__cloud-big/header__cloud-big.css);
-@import url(../blocks/header/__info-links/header__info-links.css);
-@import url(../blocks/header/__link/_type/header__link_type_link-info.css);
-@import url(../blocks/header/__link/_type/header__link_type_activ-info.css);
-@import url(../blocks/header/__pazzle/header__pazzle.css);
-@import url(../blocks/header/__section-button/header__section-button.css);
-@import url(../blocks/header/__button-test/header__button-test.css);
-@import url(../blocks/header/__seicircle-green/header__semicircle-green.css);
-@import url(../blocks/header/__article-container/header__article-container.css);
-@import url(../blocks/header/__name-article/header__name-article.css);
-@import url(../blocks/header/__link/_type/header__link_type_article.css);
-@import url(../blocks/header/__semicircle-white/header__semicircle-white.css);
-@import url(../blocks/header/__paragraph/header__paragraph.css);
-@import url(../blocks/header/__switch-container/header__switch-container.css);
-@import url(../blocks/header/__switch/header__switch.css);
-@import url(../blocks/header/__switch/_type/header__switch_type_activ.css);
+@import url(../vendor/css/normalize.css);
+@import url(../vendor/font/fonts.css);
+
+/*Начала -  блок map*/
+
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__title/map__title.css);
+@import url(../blocks/map/__map-name/map__map-name.css);
+@import url(../blocks/map/__map-image/map__map-image.css);
+
+/*Конец - блок map*/

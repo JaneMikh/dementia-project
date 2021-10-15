@@ -1,0 +1,10 @@
+    .map__title {
+        color: #00926f;
+        font-family: "Golos";
+        font-size: 43px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 41px;
+        padding-bottom: 10px;
+    }

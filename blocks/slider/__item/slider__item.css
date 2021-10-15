@@ -1,0 +1,19 @@
+.slider__item {
+  max-width: 97.98px;
+  min-height: 97.98px;
+  width: 100%;
+}
+
+@media (max-width: 840px) {
+  .slider__item {
+    max-width: 78.96px;
+    min-height: 78.96px;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider__item {
+    max-width: 51.63px;
+    min-height: 51.63px;
+  }
+}

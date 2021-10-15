@@ -1,0 +1,20 @@
+.slider__button-left {
+  background-image: url(../../../images/button-slider-left.svg);
+  position: absolute;
+  bottom: 42.57px;
+  right: -39.66px;
+}
+
+@media (max-width: 840px) {
+  .slider__button-left {
+    bottom: 29.44px;
+    right: -35.4px;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider__button-left {
+    bottom: 17.06px;
+    right: -20.4px;
+  }
+}

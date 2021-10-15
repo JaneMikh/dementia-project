@@ -1,0 +1,5 @@
+@media (max-width: 840px) {
+  .slider__item-invisible1 {
+      display: none;
+  }
+}

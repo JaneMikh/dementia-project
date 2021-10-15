@@ -12,3 +12,17 @@
 @import url(../blocks/fund/__logo/fund__logo.css);
 @import url(../blocks/fund/__link/fund__link.css);
 @import url(../blocks/fund/__element2/fund__element2.css);
+
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__element/partners__element.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__subtitle/partners__subtitle.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__item-content/slider__item-content.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button-left/slider__button-left.css);
+@import url(../blocks/slider/__button-right/slider__button-right.css);
+@import url(../blocks/slider/__item-invisible1/slider__item-invisible1.css);
+@import url(../blocks/slider/__item-invisible2/slider__item-invisible2.css);

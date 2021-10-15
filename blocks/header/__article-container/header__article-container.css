@@ -7,3 +7,22 @@
   background-color: #00926F;
   color: #fff;
 }
+
+@media screen and (max-width:850px) {
+  .header__article-container {
+    width: 180px;
+    height: 70px;
+    top: 259px;
+    left: -10px;
+  }
+}
+
+
+@media screen and (max-width: 639px) {
+  .header__article-container {
+    width: 178px;
+    height: 68px;
+    top: -17px;
+    left: 0;
+  }
+}

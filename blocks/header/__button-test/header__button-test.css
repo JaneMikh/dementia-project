@@ -11,3 +11,20 @@
   top: 11px;
   left: 70px;
 }
+
+@media screen and (max-width:850px) {
+  .header__button-test {
+    width: 145px;
+    height: 34px;
+    top: 6px;
+    left: 44px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__button-test {
+    top: 9px;
+    left: 88px;
+  }
+}

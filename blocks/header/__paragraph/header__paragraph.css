@@ -5,3 +5,9 @@
 .header__paragraph:first-child {
   padding-top: 0;
 }
+
+@media screen and (max-width:850px) {
+  .header__paragraph {
+    padding-top: 0;
+  }
+}

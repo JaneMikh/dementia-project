@@ -3,3 +3,18 @@
   top: 30px;
   left: 127px;
 }
+
+@media screen and (max-width:850px) {
+  .header__cloud-small {
+    width: 31px;
+    top: 24px;
+    left: 80px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__cloud-small {
+    top: 35px;
+    left: 89px;
+  }
+}

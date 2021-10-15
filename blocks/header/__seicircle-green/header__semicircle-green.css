@@ -3,3 +3,18 @@
   left: 218px;
   top: -15px;
 }
+
+@media screen and (max-width:850px) {
+  .header__semicircle-green {
+    width: 39px;
+    left: 172px;
+    top: -17px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__semicircle-green {
+    left: 216px;
+    top: -13px;
+  }
+}

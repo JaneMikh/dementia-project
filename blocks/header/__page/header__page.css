@@ -3,3 +3,19 @@
   left: -78px;
   top: -25px;
 }
+
+@media screen and (max-width:850px) {
+  .header__page {
+    width: 212px;
+    left: -71px;
+    top: -18px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__page {
+    width: 212px;
+    left: -61px;
+    top: -7px;
+  }
+}

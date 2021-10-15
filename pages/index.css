@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__first-letter.css/header__first-letter.css);
@@ -41,3 +40,4 @@
 @import url(../blocks/header/__switch-container/header__switch-container.css);
 @import url(../blocks/header/__switch/header__switch.css);
 @import url(../blocks/header/__switch/_type/header__switch_type_activ.css);
+@import url(../blocks/header/__menu/header__menu.css);

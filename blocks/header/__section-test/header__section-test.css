@@ -2,3 +2,9 @@
   grid-area: test;
   padding-left: 62px;
 }
+
+@media screen and (max-width:850px) {
+  .header__section-test {
+    padding-left: 32px;
+  }
+}

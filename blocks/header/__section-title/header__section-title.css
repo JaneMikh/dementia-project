@@ -5,3 +5,15 @@
   padding: 0 35px 0 62px;
   grid-area: header;
 }
+
+@media screen and (max-width:850px) {
+  .header__section-title {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__section-title {
+    padding: 0 101px 0 26px;
+  }
+}

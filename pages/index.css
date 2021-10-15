@@ -2,3 +2,13 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/fund/fund.css);
+@import url(../blocks/fund/__element1/fund__element1.css);
+@import url(../blocks/fund/__items/fund__items.css);
+@import url(../blocks/fund/__title/fund__title.css);
+@import url(../blocks/fund/__text/fund__text.css);
+@import url(../blocks/fund/__container-logo/fund__container-logo.css);
+@import url(../blocks/fund/__logo/fund__logo.css);
+@import url(../blocks/fund/__link/fund__link.css);
+@import url(../blocks/fund/__element2/fund__element2.css);

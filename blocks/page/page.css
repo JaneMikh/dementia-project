@@ -1,6 +1,6 @@
 .page {
-  min-width: 960px;
-  max-width: 320px;
+  max-width: 960px;
+  min-width: 320px;
   margin: 0 auto;
   font-family: "Golos-UI", Arial, sans-serif;
 }

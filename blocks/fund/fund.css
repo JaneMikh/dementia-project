@@ -1,0 +1,12 @@
+.fund {
+  max-width: 960px;
+  display: flex;
+  background-color: #00926f;
+  position: relative;
+}
+
+@media (max-width: 959px) {
+  .fund__text {
+    max-width: 640px;
+  }
+}

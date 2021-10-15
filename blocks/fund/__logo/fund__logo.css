@@ -1,0 +1,22 @@
+.fund__logo {
+  background-repeat: no-repeat;
+  width: 113.57px;
+  height: 160.12px;
+  background-size: contain;
+  background-image: url(../../../images/fund-logo.svg);
+}
+
+@media (max-width: 840px) {
+  .fund__logo {
+    width: 89.76px;
+    height: 127.22px;
+    background-position: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .fund__logo {
+    width: 56.4px;
+    height: 79.97px;
+  }
+}

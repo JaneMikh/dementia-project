@@ -1,0 +1,28 @@
+.news-card {
+ width: 157px;
+ height: 189px;
+ background-color: #fefefe;
+ box-sizing: border-box;
+ padding: 11px 11px 13px;
+ position: relative;
+ margin: 0 15px 0 0;
+}
+
+.news-card:last-child {
+  margin-right: 0;
+}
+
+@media all and (max-width: 840px) {
+  .news-card {
+    margin: 0 14px 0 0;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .news-card {
+    width: 118px;
+    height: 142px;
+    margin: 0 10px 0 0;
+    padding: 8px 8px 10px;
+  }
+}

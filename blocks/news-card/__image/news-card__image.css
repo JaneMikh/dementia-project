@@ -1,0 +1,13 @@
+.news-card__image {
+  width: 135px;
+  height: 104px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media all and (max-width: 620px) {
+  .news-card__image {
+    width: 102px;
+    height: 79px;
+  }
+}

@@ -1,0 +1,20 @@
+.news-card__description {
+  margin: 0;
+  text-transform: uppercase;
+  line-height: normal;
+  color: #5b5b5b;
+  font-size: 8px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  display: -webkit-box; /* Включаем флексбоксы */
+  -webkit-line-clamp: 3; /* Число отображаемых строк */
+  -webkit-box-orient: vertical; /* Вертикальная ориентация */
+  overflow: hidden; /* Обрезаем всё за пределами блока */
+}
+
+@media all and (max-width: 620px) {
+  .news-card__description {
+    font-size: 6px;
+  }
+}

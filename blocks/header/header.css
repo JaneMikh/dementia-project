@@ -13,6 +13,7 @@
   "info page article article"
   "test page article article"
   "button page article article";
+  cursor: url(../../images/cursor.png), pointer;
 }
 
 @media screen and (max-width:850px) {

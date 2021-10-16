@@ -12,6 +12,11 @@
   left: 70px;
 }
 
+.header__button-test {
+  cursor: url(../../../images/cursor.png), auto;
+
+}
+
 @media screen and (max-width:850px) {
   .header__button-test {
     width: 145px;

@@ -5,10 +5,18 @@
   overflow: visible;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .definition__img {
     left: 201px;
     top: -27px;
     width: 26.5%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .definition__img {
+    left: 187px;
+    top: -27px;
+    width: 28%;
   }
 }

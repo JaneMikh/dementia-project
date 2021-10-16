@@ -15,6 +15,7 @@
 @import url(../blocks/test/__paragraph/test__paragraph.css);
 @import url(../blocks/test/__text/test__text.css);
 @import url(../blocks/test/__button/test__button.css);
+@import url(../blocks/test/__button-hover/test__button-hover.css);
 @import url(../blocks/test/__img-purple-puzzle/test__img-purple-puzzle.css);
 @import url(../blocks/test/__img-green-puzzle/test__img-green-puzzle.css);
 @import url(../blocks/test/__img-notebook/test__img-notebook.css);

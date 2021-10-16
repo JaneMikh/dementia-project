@@ -3,8 +3,14 @@
   background-color: #6D097A;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .definition {
     height: 490px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .definition {
+    height: 301px;
   }
 }

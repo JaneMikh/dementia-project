@@ -10,18 +10,29 @@
   color: #FEFEFE;
   background-color: #FEFEFE;
   background-image: url("../../../images/Button.svg");
+
 }
 
-.test__button:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .test__button {
     margin: 0;
     position: absolute;
     top: 81px;
     left: 280px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .test__button {
+    margin: 0;
+    position: absolute;
+    top: 81px;
+    left: calc(100% - 147px);
+    width: 106.8px;
+    height: 25px;
+    font-size: 9.56px;
+    padding-top: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }

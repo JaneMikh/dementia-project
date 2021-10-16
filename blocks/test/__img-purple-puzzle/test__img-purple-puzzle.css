@@ -4,11 +4,19 @@
   left: -3px;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .test__img-purple-puzzle {
     width: 44px;
     height: 52px;
     top: -133px;
     left: -46px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .test__img-purple-puzzle {
+    z-index: 1;
+    top: 0;
+    left: calc(100% - 139px);
   }
 }

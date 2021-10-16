@@ -4,10 +4,22 @@
   left: 94px;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .test__img-green-puzzle {
     left: 16px;
     top: -120px;
     width: 183px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .test__img-green-puzzle {
+    left: 0px;
+    top: 40px;
+    width: 112px;
+    height: 114px;
+    transform: rotate(180deg) scaleX(-1);
+    object-fit: cover;
+    object-position: left top;
   }
 }

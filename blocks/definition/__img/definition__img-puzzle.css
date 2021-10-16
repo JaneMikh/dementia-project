@@ -4,8 +4,18 @@
   left: 51px;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .definition__img-puzzle {
     top: 135px;
   }
 }
+
+@media screen and (max-width: 610px) {
+  .definition__img-puzzle {
+    top: 138px;
+    left: 10px;
+    width: 20%;
+    z-index: 1;
+  }
+}
+

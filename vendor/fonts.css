@@ -1,29 +1,29 @@
 @font-face {
-  font-family: 'GolosText';
-  src: url(../fonts/Golos-UI_Regular.ttf) format('ttf');
+  font-family: 'Montserrat';
+  src: url(../vendor/fonts/Montserrat-MediumItalic.ttf) format('ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Golos-UI";
+  src: url(../vendor/fonts/Golos-UI_Bold.ttf) format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Golos-UI";
+  src: url(../vendor/fonts/Golos-UI_Regular.ttf) format("ttf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'GolosTextMedium';
-  src: url(../fonts/Golos-UI_Medium.ttf) format('ttf');
+  font-family: "Golos-UI";
+  src: url(../vendor/fonts/Golos-UI_Medium.ttf) format("ttf");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url(../fonts/Montserrat-MediumItalic.ttf) format('ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'GolosTextBold';
-  src: url(../fonts/Golos-UI_Bold.ttf) format('ttf');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: 'GolosTextVF';
-  src: url(../fonts/Golos-UI_VF.ttf) format('ttf');
+  font-family: "Golos-UI-VF";
+  src: url(../vendor/fonts/Golos-UI_VF.ttf) format("ttf");
   font-weight: 400;
 }

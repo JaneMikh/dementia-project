@@ -8,11 +8,21 @@
   object-position: 30%;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .test__img-notebook {
     top: -203px;
     left: 230px;
     width: 53%;
     height: 134%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .test__img-notebook {
+    top: -150px;
+    left: -25px;
+    width: 100vw;
+    object-position: 100% 25%;
+    height: 171px;
   }
 }

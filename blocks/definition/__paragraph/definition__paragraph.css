@@ -10,12 +10,22 @@
   color: #6C1077;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .definition__paragraph {
     margin: 16px 43px 21.7px 28.8px;
     max-width: 161px;
     font-size: 7px;
     line-height: 11px;
+    letter-spacing: normal;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .definition__paragraph {
+    margin: 16px 43px 19.45px 25.8px;
+    max-width: 141px;
+    font-size: 6.37px;
+    line-height: 10px;
     letter-spacing: normal;
   }
 }

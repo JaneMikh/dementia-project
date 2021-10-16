@@ -6,8 +6,15 @@
   position: relative;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .test {
     height: 180px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .test {
+    flex-direction: column;
+    margin-left: 25px;
   }
 }

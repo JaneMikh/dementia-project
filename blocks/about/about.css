@@ -2,8 +2,14 @@
   margin-left: 50px;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 889px) {
   .about {
     margin-left: 43px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .about {
+    margin-left: 28px;
   }
 }

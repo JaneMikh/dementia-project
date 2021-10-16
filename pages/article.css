@@ -1,0 +1,4 @@
+@import url(../article.blocks/article/article.css);
+@import url(../article.blocks/article/__title/article__title.css);
+@import url(../article.blocks/header-article/header-article.css);
+@import url(../article.blocks/page-article/page-article.css);

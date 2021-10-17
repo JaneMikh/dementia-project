@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+@import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css');
+/*Блок page*/
 @import url(../blocks/page/page.css);
 /*Блок news*/
 @import url(../blocks/content/content.css);

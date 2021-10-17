@@ -7,7 +7,8 @@
   <meta name="authors" content="Вадим Литау, Терентьева Арина, Евгения Михайлюк, Евгений Черво, Александр Афанасьев">
   <meta name="description" content="Деменция">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Деменция</title>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
+  <title>Деменция.net</title>
 </head>
 
 <body class="page">
@@ -18,44 +19,53 @@
     <section class="news">
       <h2 class="news__heading">Что нового?</h2>
       <p class="news__subtitle">Перейти к ленте новостей</p>
-      <ul class="news__list">
-        <li class="news-card">
-          <img src="./images/news_ipod_using.jpg" alt="Мужчина с айподом" class="news-card__image">
-          <h3 class="news-card__title">Заголовок новости</h3>
-          <p class="news-card__description">Описание новост</p>
-          <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
-        </li>
-        <li class="news-card">
-          <img src="./images/news_man.jpg" alt="Мужчина, сидящий за столом" class="news-card__image">
-          <h3 class="news-card__title">Заголовок новости</h3>
-          <p class="news-card__description">Описание новости</p>
-          <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
-        </li>
-        <li class="news-card">
-          <img src="./images/news_puzzles.jpg" alt="Мужчина, собирающий пазл" class="news-card__image">
-          <h3 class="news-card__title">Заголовок новости</h3>
-          <p class="news-card__description">Описание новости</p>
-          <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
-        </li>
-        <li class="news-card">
-          <img src="./images/news_veteran.jpg" alt="Ветеран ВОВ" class="news-card__image">
-          <h3 class="news-card__title">Заголовок новости</h3>
-          <p class="news-card__description">Описание новости</p>
-          <a class="news-card__link">Подробнее</a>
-        </li>
-        <li class="news__card"></li>
-        <li class="news-card">
-          <img src="./images/news_elderly couple.jpg" alt="Супружеская пара" class="news-card__image">
-          <h3 class="news-card__title">Заголовок новости</h3>
-          <p class="news-card__description">Описание новости</p>
-          <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
-        </li>
-      </ul>
+      <div class="splide">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev"></button>
+          <button class="splide__arrow splide__arrow--next"></button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list news__list">
+            <li class="splide__slide news-card">
+              <img src="./images/news_ipod_using.jpg" alt="Мужчина с айподом" class="news-card__image">
+              <h3 class="news-card__title">Заголовок новости</h3>
+              <p class="news-card__description">Описание новост</p>
+              <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
+            </li>
+            <li class="splide__slide news-card">
+              <img src="./images/news_man.jpg" alt="Мужчина, сидящий за столом" class="news-card__image">
+              <h3 class="news-card__title">Заголовок новости</h3>
+              <p class="news-card__description">Описание новости</p>
+              <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
+            </li>
+            <li class="splide__slide news-card">
+              <img src="./images/news_puzzles.jpg" alt="Мужчина, собирающий пазл" class="news-card__image">
+              <h3 class="news-card__title">Заголовок новости</h3>
+              <p class="news-card__description">Описание новости</p>
+              <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
+            </li>
+            <li class="splide__slide news-card">
+              <img src="./images/news_veteran.jpg" alt="Ветеран ВОВ" class="news-card__image">
+              <h3 class="news-card__title">Заголовок новости</h3>
+              <p class="news-card__description">Описание новости</p>
+              <a class="news-card__link">Подробнее</a>
+            </li>
+            <li class="splide__slide news__card"></li>
+            <li class="news-card">
+              <img src="./images/news_elderly couple.jpg" alt="Супружеская пара" class="news-card__image">
+              <h3 class="news-card__title">Заголовок новости</h3>
+              <p class="news-card__description">Описание новости</p>
+              <a href="#" target="_blank" alt="Подробнее" class="news-card__link">Подробнее</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="footer">
 
   </footer>
+  <script src="./scripts/project_slider.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
 

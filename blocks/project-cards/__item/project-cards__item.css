@@ -1,0 +1,19 @@
+.project-cards__item {
+  max-width: 207px;
+  box-sizing: border-box;
+  padding: 31px 29px;
+}
+
+@media all and (max-width: 840px) {
+  .project-cards__item {
+    max-width: 196px;
+    padding: 29px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .project-cards__item {
+    max-height: 117px;
+    padding: 21px;
+  }
+}

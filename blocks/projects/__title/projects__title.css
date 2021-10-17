@@ -1,0 +1,16 @@
+.projects__title {
+  margin: 106px 107px 12px 0;
+  align-self: flex-end;
+}
+
+@media all and (max-width: 840px) {
+  .projects__title {
+    margin: 148px 41px 9px 0;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__title {
+    margin: 72px 31px 6px 0;
+  }
+}

@@ -1,0 +1,23 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/*Блок page*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__title/page__title.css);
+@import url(../blocks/page/__subtitle/page__subtitle.css);
+/*Блок Projects*/
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__puzzle/projects__puzzle.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__subtitle/projects__subtitle.css);
+@import url(../blocks/projects/__content/projects__content.css);
+@import url(../blocks/project-cards/project-cards.css);
+@import url(../blocks/project-cards/__list/project-cards__list.css);
+@import url(../blocks/project-cards/__item/project-cards__item.css);
+@import url(../blocks/project-cards/__item/_green/project-cards__item_green.css);
+@import url(../blocks/project-cards/__item/_purple/project-cards__item_purple.css);
+@import url(../blocks/project-cards/__link/project-cards__link.css);
+@import url(../blocks/project-cards/__image/project-cards__image.css);
+@import url(../blocks/project-cards/__title/project-cards__title.css);
+
+
+

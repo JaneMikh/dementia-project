@@ -1,0 +1,20 @@
+.project-cards__image {
+  max-width: 147px;
+  max-height: 113px;
+  object-position: center;
+  object-fit: cover;
+}
+
+@media all and (max-width: 840px) {
+  .project-cards__image {
+    max-width: 135px;
+    max-height: 103px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .project-cards__image {
+    max-width: 96px;
+    max-height: 75px;
+  }
+}

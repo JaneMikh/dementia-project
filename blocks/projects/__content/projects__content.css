@@ -1,0 +1,20 @@
+.projects__content {
+  display: flex;
+  justify-content: center;
+  border-left: 66px solid #6d097a;
+  border-right: 66px solid #00926f50;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 840px) {
+  .projects__content {
+    border-width: 0 26px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__content {
+    border-width: 0 22px;
+  }
+}
+

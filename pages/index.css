@@ -1,15 +1,27 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+
+@import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css');
 /*Блок page*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__title/page__title.css);
 @import url(../blocks/page/__subtitle/page__subtitle.css);
-/*Блок Projects*/
+/*Блок projects*/
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__puzzle/projects__puzzle.css);
+@import url(../blocks/projects/__semicircle/projects__semicircle.css);
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__subtitle/projects__subtitle.css);
 @import url(../blocks/projects/__content/projects__content.css);
+
+@import url(../blocks//projects/__background/projects__background.css);
+@import url(../blocks//projects/__background/_blk/projects__background_blk_m.css);
+@import url(../blocks//projects/__background/_blk/projects__background_blk_s.css);
+@import url(../blocks//projects/__background/_clr/projects__background_clr_purple.css);
+@import url(../blocks//projects/__background/_clr/projects__background_clr_green.css);
+@import url(../blocks//projects/__background/_unactive-purple/projects__background_unactive-purple.css);
+@import url(../blocks//projects/__background/_unactive-green/projects__background_unactive-green.css);
+
 @import url(../blocks/project-cards/project-cards.css);
 @import url(../blocks/project-cards/__list/project-cards__list.css);
 @import url(../blocks/project-cards/__item/project-cards__item.css);

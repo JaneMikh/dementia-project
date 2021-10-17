@@ -1,19 +1,21 @@
 .project-cards__item {
-  max-width: 207px;
   box-sizing: border-box;
-  padding: 31px 29px;
+  padding: 0 29px;
+  transition: transform 0.5s ease;
+}
+
+.project-cards__item:hover {
+  transform: scale(1.05);
 }
 
 @media all and (max-width: 840px) {
   .project-cards__item {
-    max-width: 196px;
-    padding: 29px;
+    padding: 0 28px;
   }
 }
 
 @media all and (max-width: 620px) {
   .project-cards__item {
-    max-height: 117px;
-    padding: 21px;
+    padding: 0 21px;
   }
 }

@@ -7,45 +7,50 @@
     <meta name="description" content="Деменция">
     <link rel="stylesheet" href="./pages/index.css">
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css">
     <title>Деменция.net</title>
   </head>
   <body class="page">
     <header class="header">
-
     </header>
     <main class="content">
       <section class="projects">
         <div class="projects__puzzle"></div>
+        <div class="projects__semicircle"></div>
         <h2 class="page__title projects__title">А также:</h2>
         <p class="page__subtitle projects__subtitle">Другие проекты фонда</p>
         <div class="projects__content">
+          <ul class="projects__background">
+            <li class="projects__background_blk_m projects__background_clr_purple projects__background_unactive-purple"></li>
+            <li class="projects__background_blk_s projects__background_clr_green"></li>
+            <li class="projects__background_blk_s projects__background_clr_purple"></li>
+            <li class="projects__background_blk_m projects__background_clr_green projects__background_unactive-green"></li>
+          </ul>
           <div class="splide project-cards">
-            <!--<div class="splide__arrows">
+            <div class="splide__arrows">
               <button class="splide__arrow splide__arrow--prev"></button>
               <button class="splide__arrow splide__arrow--next"></button>
-            </div>-->
+            </div>
             <div class="splide__track">
               <ul class="splide__list project-cards__list">
-                <li class="splide__slide project-cards__item project-cards__item_purple">
+                <li class="splide__slide project-cards__item">
                   <a href="#" target="_blank" class="project-cards__link">
                     <img src="./images/project_first_picture.png" alt="Мужчина, сидящий на диване" class="project-cards__image">
                     <h3 class="project-cards__title">Название проекта</h3>
                   </a>
                 </li>
-                <li class="splide__slide project-cards__item project-cards__item_green">
+                <li class="splide__slide project-cards__item">
                   <a href="#" target="_blank" class="project-cards__link">
                     <img src="./images/project_second_picture.png" alt="Мужчина" class="project-cards__image">
                     <h3 class="project-cards__title">Название проекта</h3>
                   </a>
                 </li>
-                <li class="splide__slide project-cards__item project-cards__item_purple">
+                <li class="splide__slide project-cards__item">
                   <a href="#" target="_blank" class="project-cards__link">
                     <img src="./images/project_third_picture.png" alt="Фото мужчины" class="project-cards__image">
                     <h3 class="project-cards__title">Название проекта</h3>
                   </a>
                 </li>
-                <li class="splide__slide project-cards__item project-cards__item_green">
+                <li class="splide__slide project-cards__item">
                   <a href="#" target="_blank" class="project-cards__link">
                     <img src="./images/project_fourth_picture.png" alt="Мужчина, смотрящий на часы" class="project-cards__image">
                     <h3 class="project-cards__title">Название проекта</h3>
@@ -60,7 +65,7 @@
     <footer class="footer">
 
     </footer>
-    <script type="text/javascript" src="./scripts/project_slider.js"></script>
+    <script src="./scripts/project_slider.js"></script>
     <script src="./scripts/script.js"></script>
   </body>
 </html>

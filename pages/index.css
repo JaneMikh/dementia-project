@@ -7,5 +7,10 @@
 @import url(../blocks/map/__title/map__title.css);
 @import url(../blocks/map/__map-name/map__map-name.css);
 @import url(../blocks/map/__map-image/map__map-image.css);
+@import url(../blocks/map/__komi/map__komi.css);
+@import url(../blocks/map/__komi-button/map__komi-button.css);
+@import url(../blocks/map/__popup-text/map__popup-text.css);
+@import url(../blocks/map/__popup/map__popup.css);
+@import url(../blocks/map/__popup/_show/map__popup-show.css);
 
 /*Конец - блок map*/

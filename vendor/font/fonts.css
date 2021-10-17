@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Golos';
-    font-weight: 800;
+    font-weight: 700;
     src: url(../font/fonts/Golos-Text_Bold.woff2) format('woff2'), url(../font/fonts/Golos-UI_Bold.ttf) format('ttf'), url(../font/fonts/Golos-Text_Bold.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Golos';
     font-weight: 900;
-    src: url(../font/fonts/Golos-Text_Black.woff2) format('woff2'), url(../font/fonts/Golos-Text_Black.woff) format('woff') url(../font/fonts/Golos-UI_Medium.ttf) format('ttf');
+    src: url(../font/fonts/Golos-Text_Black.woff2) format('woff2'), url(../font/fonts/Golos-Text_Black.woff) format('woff'), url(../font/fonts/Golos-UI_Medium.ttf) format('ttf');
 }

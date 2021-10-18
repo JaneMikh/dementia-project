@@ -1,4 +1,4 @@
-var splide = new Splide(".splide", {
+var splide = new Splide("#splide", {
   type: "loop",
   perPage: 6,
   perMove: 1,

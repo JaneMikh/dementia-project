@@ -6,7 +6,6 @@
     text-transform: uppercase;
     margin: 0;
     padding-left: 105px;
-    padding-top: 41px;
     padding-bottom: 10px;
 }
 
@@ -14,7 +13,14 @@
     .map__title {
         font-size: 34px;
         padding-left: 40px;
-        padding-top: 54px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 320px) {
+    .map__title {
+        font-size: 23px;
+        padding-left: 23px;
         padding-bottom: 8px;
     }
 }

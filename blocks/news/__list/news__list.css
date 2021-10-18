@@ -1,27 +1,6 @@
 .news__list {
-  display: flex;
-  align-self: center;
-  flex-wrap: nowrap;
-  overflow: hidden;
-  justify-content: center;
-  padding: 26px 31px 68px;
-  margin: 0 auto -52px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  max-width: 95%;
-  box-sizing: border-box;
   background-color: #6d097a;
-}
-
-@media all and (max-width: 840px) {
-  .news__list {
-    max-width: 89%;
-    padding: 26px 35px 26px;
-  }
-}
-
-@media all and (max-width: 620px) {
-  .news__list {
-    max-width: 86%;
-    padding: 21px 14px 27px;
-  }
 }

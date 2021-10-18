@@ -10,6 +10,9 @@
 @import url(../blocks/news/__heading/news__heading.css);
 @import url(../blocks/news/__subtitle/news__subtitle.css);
 @import url(../blocks/news/__list/news__list.css);
+@import url(../blocks/news/__background/news__background.css);
+@import url(../blocks/news/__content/news__content.css);
+
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__image/news-card__image.css);
 @import url(../blocks/news-card/__title/news-card__title.css);

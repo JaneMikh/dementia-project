@@ -1,11 +1,11 @@
 .news-card__title {
   color: #5b5b5b;
-  font-size: 8px;
+  font-size: 13px;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
   line-height: normal;
-  margin: 5px 0 3px;
+  margin: 5px 0 4px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -13,13 +13,13 @@
 
 @media all and (max-width: 840px) {
   .news-card__title {
-    margin-bottom: 4px;
+    font-size: 8px;
   }
 }
 
 @media all and (max-width: 620px) {
   .news-card__title {
-    margin: 4px 0 2px;
     font-size: 6px;
+    margin: 4px 0 2px;
   }
 }

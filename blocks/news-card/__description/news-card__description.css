@@ -3,14 +3,20 @@
   text-transform: uppercase;
   line-height: normal;
   color: #5b5b5b;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
-  display: -webkit-box; /* Включаем флексбоксы */
-  -webkit-line-clamp: 3; /* Число отображаемых строк */
-  -webkit-box-orient: vertical; /* Вертикальная ориентация */
-  overflow: hidden; /* Обрезаем всё за пределами блока */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media all and (max-width: 840px) {
+  .news-card__description {
+    font-size: 8px;
+  }
 }
 
 @media all and (max-width: 620px) {

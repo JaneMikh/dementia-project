@@ -14,9 +14,9 @@ function throttleScroll(e) {
 
 document.addEventListener("DOMContentLoaded", dealWithScrolling, false);
 
-let purplePuzzle = document.querySelector(".test__img-purple-puzzle");
-let bigGreenPuzzle = document.querySelector(".test__img-green-puzzle");
-let smallGreenPuzzle = document.querySelector(".definition__img-puzzle");
+const purplePuzzle = document.querySelector(".test__img-purple-puzzle");
+const bigGreenPuzzle = document.querySelector(".test__img-green-puzzle");
+const smallGreenPuzzle = document.querySelector(".definition__img-puzzle");
 
 function dealWithScrolling(e) {
   if (isPartiallyVisible(smallGreenPuzzle)) {
@@ -39,20 +39,20 @@ function dealWithScrolling(e) {
 }
 
 function isPartiallyVisible(el) {
-  let elementBoundary = el.getBoundingClientRect();
+  const elementBoundary = el.getBoundingClientRect();
 
-  let top = elementBoundary.top;
-  let bottom = elementBoundary.bottom;
-  let height = elementBoundary.height;
+  const top = elementBoundary.top;
+  const bottom = elementBoundary.bottom;
+  const height = elementBoundary.height;
 
   return ((top + height >= 0) && (height + window.innerHeight >= bottom));
 }
 
-function isFullyVisible(el) {
-  let elementBoundary = el.getBoundingClientRect();
+// function isFullyVisible(el) {
+//   let elementBoundary = el.getBoundingClientRect();
 
-  let top = elementBoundary.top;
-  let bottom = elementBoundary.bottom;
+//   let top = elementBoundary.top;
+//   let bottom = elementBoundary.bottom;
 
-  return ((top >= 0) && (bottom <= window.innerHeight));
-}
+//   return ((top >= 0) && (bottom <= window.innerHeight));
+// }

@@ -23,3 +23,13 @@
     line-height: 1.2;
   }
 }
+
+@media screen and (min-width:1280px) {
+  .header__title-text {
+    width: 160px;
+    margin: 4px 0 0 74px;
+    font-size: 8px;
+    line-height: 1.2;
+
+  }
+}

@@ -1,0 +1,23 @@
+.projects__background {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 172px;
+  z-index: 1;
+}
+
+@media all and (max-width: 840px) {
+  .projects__background {
+    height: 163px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__background {
+    height: 117px;
+  }
+}

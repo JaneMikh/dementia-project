@@ -1,0 +1,7 @@
+.projects__arrow-prev {
+  background-image: url('../../../images/slider_left_button.svg');
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 50%;
+  left: 9px;
+}

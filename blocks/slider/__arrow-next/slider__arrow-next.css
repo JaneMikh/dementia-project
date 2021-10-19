@@ -1,0 +1,20 @@
+.slider__arrow-next {
+  background-image: url("../../../images/button-slider-left.svg");
+  position: absolute;
+  top: 33.26px;
+  right: -39.66px;
+}
+
+@media (max-width: 840px) {
+  .slider__arrow-next {
+    top: 29.8px;
+    right: -25.53px;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider__arrow-next {
+    top: 16.09px;
+    right: -12.05px;
+  }
+}

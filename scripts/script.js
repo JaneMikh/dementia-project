@@ -1,4 +1,4 @@
-var splide = new Splide("#splide", {
+var splide = new Splide("#splide-partners", {
   type: "loop",
   perPage: 6,
   perMove: 1,
@@ -17,6 +17,10 @@ var splide = new Splide("#splide", {
       fixedWidth: 51.63,
     },
   },
+  classes: {
+    prev  : 'splide__arrow--prev slider__arrow-prev',
+		next  : 'splide__arrow--next slider__arrow-next',
+  }
 });
 
 splide.mount();s

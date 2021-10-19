@@ -18,9 +18,12 @@
 @import url(../blocks/partners/__element/partners__element.css);
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__subtitle/partners__subtitle.css);
-@import url(../blocks/partners/__content/partners__content.css);
+
+@import url(../blocks/splide/__arrow/splide__arrow.css);
 
 @import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__arrow-prev/slider__arrow-prev.css);
+@import url(../blocks/slider/__arrow-next/slider__arrow-next.css);
 @import url(../blocks/slider/__item/slider__item.css);
 @import url(../blocks/slider/__item-content/slider__item-content.css);
 @import url(../blocks/slider/__button/slider__button.css);

@@ -1,0 +1,18 @@
+.header__link-container {
+  box-sizing: border-box;
+  padding: 0 5px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width:1280px) {
+  .header__link-container {
+    padding: 0 31px 0 0;
+  }
+  .header__link-container:last-child {
+    padding: 0;
+  }
+
+}

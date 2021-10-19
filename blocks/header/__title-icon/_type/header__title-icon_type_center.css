@@ -1,0 +1,18 @@
+.header__title-icon_type_center {
+  margin: 0 0 43px 0;
+  align-self: flex-end;
+}
+
+@media screen and (max-width:850px) {
+  .header__title-icon_type_center {
+    width: 36px;
+    margin: 0 6px 55px 0;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__title-icon_type_center {
+    width: 19px;
+    margin: 0 0 37px 0;
+  }
+}

@@ -1,10 +1,14 @@
-@import url(../vendor/normalize.css);
+<<<<<<< HEAD @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
 @import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css');
+@import url(../blocks/header/header.css);
+
 /*Блок page*/
+
 @import url(../blocks/page/page.css);
+
 /*Блок news*/
+
 @import url(../blocks/content/content.css);
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__heading/news__heading.css);
@@ -12,10 +16,26 @@
 @import url(../blocks/news/__list/news__list.css);
 @import url(../blocks/news/__background/news__background.css);
 @import url(../blocks/news/__content/news__content.css);
-
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__image/news-card__image.css);
 @import url(../blocks/news-card/__title/news-card__title.css);
 @import url(../blocks/news-card/__description/news-card__description.css);
 @import url(../blocks/news-card/__link/news-card__link.css);
+=======@import url(../vendor/css/normalize.css);
+@import url(../vendor/font/fonts.css);
 
+/*Начала -  блок map*/
+
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__title/map__title.css);
+@import url(../blocks/map/__map-name/map__map-name.css);
+@import url(../blocks/map/__map-image/map__map-image.css);
+@import url(../blocks/map/__komi/map__komi.css);
+@import url(../blocks/map/__komi-button/map__komi-button.css);
+@import url(../blocks/map/__popup-text/map__popup-text.css);
+@import url(../blocks/map/__popup/map__popup.css);
+@import url(../blocks/map/__popup/_show/map__popup-show.css);
+
+/*Конец - блок map*/
+
+>>>>>>>feature/map

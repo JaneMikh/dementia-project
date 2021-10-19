@@ -1,0 +1,21 @@
+.header__face-woman {
+  position: absolute;
+  left: 79px;
+  top: 54px;
+}
+
+@media screen and (max-width:850px) {
+  .header__face-woman {
+    width: 18px;
+    left: 45px;
+    top: 41px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__face-woman {
+    width: 18px;
+    left: 54px;
+    top: 51px;
+  }
+}

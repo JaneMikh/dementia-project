@@ -1,0 +1,22 @@
+.header__switch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 74px;
+  margin: 384px auto 0 auto;
+  padding-left: 47px;
+}
+
+@media screen and (max-width:850px) {
+  .header__switch-container {
+    margin: 366px auto 0 auto;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .header__switch-container {
+    margin: 232px auto 0 auto;
+    padding-left: 12px;
+  }
+}

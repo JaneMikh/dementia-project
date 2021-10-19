@@ -1,0 +1,23 @@
+.news-card {
+  height: 290px;
+  background-color: #fefefe;
+  box-sizing: border-box;
+  padding: 22px 22px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 840px) {
+  .news-card {
+    height: 189px;
+    padding: 11px 11px 0;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .news-card {
+    height: 142px;
+    padding: 8px 8px 0;
+  }
+}

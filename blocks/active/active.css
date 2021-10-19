@@ -1,0 +1,11 @@
+.active {
+  transition: 3s;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+@media screen and (max-width: 610px) {
+  .test__img-green-puzzle {
+    transform:translate3d(0, 0, 0) rotate(180deg) scaleX(-1) ;
+  }
+}

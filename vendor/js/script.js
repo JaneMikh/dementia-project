@@ -5,7 +5,7 @@ const komiPopup = document.querySelector('.map__popup');
 komi.addEventListener('click', () => {
     komiPopup.classList.toggle('map__popup_show')
 })
-
+komiMap.style.fill = '#9a34a8';
 komi.addEventListener('mouseover', () => {
     komiMap.style.fill = '#6d097a';
 });

@@ -30,6 +30,7 @@
 @import url(../blocks/news-card/__description/news-card__description.css);
 @import url(../blocks/news-card/__link/news-card__link.css);
 
+
 /*Блок projects*/
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__puzzle/projects__puzzle.css);
@@ -57,3 +58,4 @@
 @import url(../blocks/project-cards/__link/project-cards__link.css);
 @import url(../blocks/project-cards/__image/project-cards__image.css);
 @import url(../blocks/project-cards/__title/project-cards__title.css);
+

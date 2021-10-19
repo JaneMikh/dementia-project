@@ -1,0 +1,21 @@
+.header__face-man {
+  position: absolute;
+  left: 35px;
+  top: 50px;
+}
+
+@media screen and (max-width:850px) {
+  .header__face-man {
+    width: 22px;
+    left: 10px;
+    top: 39px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__face-man {
+    width: 22px;
+    left: 21px;
+    top: 49px;
+  }
+}

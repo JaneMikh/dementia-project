@@ -1,0 +1,20 @@
+.header__cloud-big {
+  position: absolute;
+  top: 8px;
+  left: 75px;
+}
+
+@media screen and (max-width:850px) {
+  .header__cloud-big {
+    width: 53px;
+    top: 8px;
+    left: 43px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__cloud-big {
+    top: 18px;
+    left: 51px;
+  }
+}

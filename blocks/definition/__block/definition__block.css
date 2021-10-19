@@ -1,0 +1,27 @@
+.definition__block {
+  position: relative;
+  left: -18.6px;
+  margin-top: 94px;
+  width: 383px;
+  height: 116px;
+  display: flex;
+  background-color: #CAE6DF;
+}
+
+@media screen and (max-width: 889px) {
+  .definition__block {
+    max-width: 297.8px;
+    height: 90px;
+    margin-top: 46px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .definition__block {
+    max-width: 264.2px;
+    margin: 0 auto;
+    height: 83px;
+    left: 0;
+    top: -15px;
+  }
+}

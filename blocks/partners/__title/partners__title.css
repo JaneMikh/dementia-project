@@ -1,0 +1,28 @@
+.partners__title {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 146.34px 0 10px 105.24px;
+  font-weight: 700;
+  font-size: 42.69px;
+  line-height: 42.69px;
+  color: #6d097a;
+}
+
+@media (max-width: 840px) {
+  .partners__title {
+    padding-top: 110.18px;
+    padding-left: 41.11px;
+    font-size: 34.23px;
+    line-height: 34.23px;
+  }
+}
+
+@media (max-width: 620px) {
+  .partners__title {
+    padding-top: 83.77px;
+    padding-left: 19.96px;
+    padding-bottom: 7.33px;
+    font-size: 23.33px;
+    line-height: 23.33px;
+  }
+}

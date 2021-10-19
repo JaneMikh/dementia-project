@@ -1,0 +1,12 @@
+.map {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 320px) {
+    .map__map-image {
+        width: 310px;
+    }
+}

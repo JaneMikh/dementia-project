@@ -1,0 +1,13 @@
+.info {
+  max-width: 960px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width: 610px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+}

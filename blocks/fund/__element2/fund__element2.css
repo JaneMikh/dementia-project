@@ -1,0 +1,29 @@
+.fund__element2 {
+  width: 248.12px;
+  height: 125.17px;
+  background-image: url(../../../images/fund-element2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -95.53px;
+  left: 349.49px;
+  z-index: 1;
+}
+
+@media (max-width: 840px) {
+  .fund__element2 {
+    width: 216.4px;
+    height: 108.22px;
+    bottom: -74.98px;
+    left: 209.57px;
+  }
+}
+
+@media (max-width: 620px) {
+  .fund__element2 {
+    width: 119.52px;
+    height: 59.76px;
+    bottom: -37.99px;
+    left: 156.57px;
+  }
+}

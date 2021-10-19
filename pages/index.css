@@ -50,13 +50,58 @@
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/dropdown-menu/_click-open/dropdown-menu_click-open.css);
 
+/*info*/
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/definition/definition.css);
+@import url(../blocks/definition/__block/definition__block.css);
+@import url(../blocks/definition/__paragraph/definition__paragraph.css);
+@import url(../blocks/definition/__img/definition__img.css);
+@import url(../blocks/definition/__img/definition__img-puzzle.css);
+@import url(../blocks/test/test.css);
+@import url(../blocks/test/__header/test__header.css);
+@import url(../blocks/test/__paragraph/test__paragraph.css);
+@import url(../blocks/test/__text/test__text.css);
+@import url(../blocks/test/__button/test__button.css);
+@import url(../blocks/test/__button-hover/test__button-hover.css);
+@import url(../blocks/test/__img-purple-puzzle/test__img-purple-puzzle.css);
+@import url(../blocks/test/__img-green-puzzle/test__img-green-puzzle.css);
+@import url(../blocks/test/__img-notebook/test__img-notebook.css);
+@import url(../blocks/test/__img-button-border/test__img-button-border.css);
+@import url(../blocks/active/active.css);
 @import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css');
+
 /*Блок page*/
+
+@import url(../blocks/page/page.css);
+
+/*Блок news*/
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__heading/news__heading.css);
+@import url(../blocks/news/__subtitle/news__subtitle.css);
+@import url(../blocks/news/__list/news__list.css);
+@import url(../blocks/news/__background/news__background.css);
+@import url(../blocks/news/__content/news__content.css);
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/news-card/__image/news-card__image.css);
+@import url(../blocks/news-card/__title/news-card__title.css);
+@import url(../blocks/news-card/__description/news-card__description.css);
+@import url(../blocks/news-card/__link/news-card__link.css);
+
+/*Блок page*/
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__title/page__title.css);
 @import url(../blocks/page/__subtitle/page__subtitle.css);
 
 /*Стили для слайдеров*/
+
 @import url(../blocks/splide/splide__arrow.css);
 @import url(../blocks/news/__arrow-prev/news__arrow-prev.css);
 @import url(../blocks/news/__arrow-next/news__arrow-next.css);
@@ -65,6 +110,7 @@
 @import url(../blocks/splide/__pagination/splide__pagination__page.css);
 
 /*Блок news*/
+
 @import url(../blocks/content/content.css);
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__title/news__title.css);
@@ -72,25 +118,21 @@
 @import url(../blocks/news/__list/news__list.css);
 @import url(../blocks/news/__background/news__background.css);
 @import url(../blocks/news/__content/news__content.css);
-
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__image/news-card__image.css);
 @import url(../blocks/news-card/__title/news-card__title.css);
 @import url(../blocks/news-card/__description/news-card__description.css);
 @import url(../blocks/news-card/__link/news-card__link.css);
 
-
 /*Блок projects*/
+
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__puzzle/projects__puzzle.css);
 @import url(../blocks/projects/__puzzle/_animation/projects__puzzle_animation.css);
-
 @import url(../blocks/projects/__semicircle/projects__semicircle.css);
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__subtitle/projects__subtitle.css);
 @import url(../blocks/projects/__content/projects__content.css);
-
-
 @import url(../blocks//projects/__background/projects__background.css);
 @import url(../blocks//projects/__background/_blk/projects__background_blk_m.css);
 @import url(../blocks//projects/__background/_blk/projects__background_blk_s.css);
@@ -98,7 +140,6 @@
 @import url(../blocks//projects/__background/_clr/projects__background_clr_green.css);
 @import url(../blocks//projects/__background/_unactive-purple/projects__background_unactive-purple.css);
 @import url(../blocks//projects/__background/_unactive-green/projects__background_unactive-green.css);
-
 @import url(../blocks/project-cards/project-cards.css);
 @import url(../blocks/project-cards/__list/project-cards__list.css);
 @import url(../blocks/project-cards/__item/project-cards__item.css);
@@ -108,3 +149,46 @@
 @import url(../blocks/project-cards/__image/project-cards__image.css);
 @import url(../blocks/project-cards/__title/project-cards__title.css);
 
+/**/
+
+@import url(../blocks/fund/fund.css);
+@import url(../blocks/fund/__element1/fund__element1.css);
+@import url(../blocks/fund/__items/fund__items.css);
+@import url(../blocks/fund/__title/fund__title.css);
+@import url(../blocks/fund/__text/fund__text.css);
+@import url(../blocks/fund/__container-logo/fund__container-logo.css);
+@import url(../blocks/fund/__logo/fund__logo.css);
+@import url(../blocks/fund/__link/fund__link.css);
+@import url(../blocks/fund/__element2/fund__element2.css);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__element/partners__element.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__subtitle/partners__subtitle.css);
+@import url(../blocks/partners/__content/partners__content.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__item-content/slider__item-content.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button-left/slider__button-left.css);
+@import url(../blocks/slider/__button-right/slider__button-right.css);
+
+/*Начала -  блок map*/
+
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__title/map__title.css);
+@import url(../blocks/map/__map-name/map__map-name.css);
+@import url(../blocks/map/__map-image/map__map-image.css);
+@import url(../blocks/map/__komi/map__komi.css);
+@import url(../blocks/map/__komi-button/map__komi-button.css);
+@import url(../blocks/map/__popup-text/map__popup-text.css);
+@import url(../blocks/map/__popup/map__popup.css);
+@import url(../blocks/map/__popup/_show/map__popup-show.css);
+
+/*Конец - блок map*/
+
+
+/*Начала -  блок footer*/
+
+@import url(../blocks/footer/footer.css);
+
+/*Конец - блок footer*/

@@ -1,0 +1,15 @@
+.projects__background_blk_s {
+  width: 207px;
+}
+
+@media all and (max-width: 840px) {
+  .projects__background_blk_s {
+    width: 196px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__background_blk_s {
+    width: 160px;
+  }
+}

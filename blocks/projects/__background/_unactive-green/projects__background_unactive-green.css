@@ -1,0 +1,9 @@
+.projects__background_unactive-green {
+  display: block;
+}
+
+@media all and (max-width: 840px) {
+  .projects__background_unactive-green {
+    display: none;
+  }
+}

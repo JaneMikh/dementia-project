@@ -8,6 +8,7 @@
   box-sizing: border-box;
   padding-top: 26px;
   margin-bottom: -53px;
+  z-index: 2;
 }
 
 @media all and (max-width: 840px) {

@@ -1,65 +1,113 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="authors" content="Вадим Литау, Терентьева Арина, Евгения Михайлюк, Евгений Черво, Александр Афанасьев">
-  <meta name="description" content="Деменция">
-  <link rel="stylesheet" href="./pages/index.css">
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
-  <title>Деменция.net</title>
-</head>
-
-<body class="page">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Вадим Литау, Терентьева Арина, Евгения Михайлюк, Евгений Черво, Александр Афанасьев">
+    <meta name="description" content="Деменция">
+    <link rel="stylesheet" href="./pages/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
+    <title>Деменция.net</title>
+  </head>
+  <body class="page">
   <header class="header">
 
   </header>
-  <main class="content">
-    <section class="news">
-      <h2 class="news__heading">Что нового?</h2>
-      <p class="news__subtitle">Перейти к ленте новостей</p>
-      <div class="news__background">
-        <div class="splide news__content" id="splide-news">
-          <div class="splide__arrows">
-            <button class="splide__arrow splide__arrow--prev"></button>
-            <button class="splide__arrow splide__arrow--next"></button>
-          </div>
-          <div class="splide__track">
-            <ul class="splide__list news__list">
-              <li class="splide__slide news-card">
-                <img src="./images/news_man.jpg" alt="Мужчина, сидящий за столом" class="news-card__image">
-                <h3 class="news-card__title">Заголовок новости</h3>
-                <p class="news-card__description">Описание новости</p>
-                <a href="#" target="_blank" class="news-card__link">Подробнее</a>
-              </li>
-              <li class="splide__slide news-card">
-                <img src="./images/news_puzzles.jpg" alt="Мужчина, собирающий пазл" class="news-card__image">
-                <h3 class="news-card__title">Заголовок новости</h3>
-                <p class="news-card__description">Описание новости</p>
-                <a href="#" target="_blank" class="news-card__link">Подробнее</a>
-              </li>
-              <li class="splide__slide news-card">
-                <img src="./images/news_veteran.jpg" alt="Ветеран ВОВ" class="news-card__image">
-                <h3 class="news-card__title">Заголовок новости</h3>
-                <p class="news-card__description">Описание новости</p>
-                <a class="news-card__link">Подробнее</a>
-              </li>
-              <li class="splide__slide news-card">
-                <img src="./images/news_elderly_couple.jpg" alt="Супружеская пара" class="news-card__image">
-                <h3 class="news-card__title">Заголовок новости</h3>
-                <p class="news-card__description">Описание новости</p>
-                <a href="#" target="_blank" class="news-card__link">Подробнее</a>
-              </li>
-            </ul>
+    <main class="content">
+      <section class="news">
+        <h2 class="page__title news__title">Что нового?</h2>
+        <p class="page__subtitle news__subtitle">Перейти к ленте новостей</p>
+        <div class="news__background">
+
+          <div class="splide" id="splide-news">
+            <div class="splide__arrows">
+              <button class="splide__arrow splide__arrow--prev news__arrow-prev"></button>
+              <button class="splide__arrow splide__arrow--next news__arrow-next"></button>
+            </div>
+            <div class="splide__track">
+              <ul class="splide__list news__list">
+                <li class="splide__slide news-card">
+                  <img src="./images/news_man.jpg" alt="Мужчина, сидящий за столом" class="news-card__image">
+                  <h3 class="news-card__title">Заголовок новости</h3>
+                  <p class="news-card__description">Описание новости</p>
+                  <a href="#" target="_blank" class="news-card__link">Подробнее</a>
+                </li>
+                <li class="splide__slide news-card">
+                  <img src="./images/news_puzzles.jpg" alt="Мужчина, собирающий пазл" class="news-card__image">
+                  <h3 class="news-card__title">Заголовок новости</h3>
+                  <p class="news-card__description">Описание новости</p>
+                  <a href="#" target="_blank" class="news-card__link">Подробнее</a>
+                </li>
+                <li class="splide__slide news-card">
+                  <img src="./images/news_veteran.jpg" alt="Ветеран ВОВ" class="news-card__image">
+                  <h3 class="news-card__title">Заголовок новости</h3>
+                  <p class="news-card__description">Описание новости</p>
+                  <a class="news-card__link">Подробнее</a>
+                </li>
+                <li class="splide__slide news-card">
+                  <img src="./images/news_elderly_couple.jpg" alt="Супружеская пара" class="news-card__image">
+                  <h3 class="news-card__title">Заголовок новости</h3>
+                  <p class="news-card__description">Описание новости</p>
+                  <a href="#" target="_blank" class="news-card__link">Подробнее</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
+      </section>
+      <section class="projects">
+        <div class="projects__puzzle projects__puzzle_animation"></div>
+        <div class="projects__semicircle"></div>
+        <h2 class="page__title projects__title">А также:</h2>
+        <p class="page__subtitle projects__subtitle">Другие проекты фонда</p>
+        <div class="projects__content">
+          <ul class="projects__background">
+            <li class="projects__background_blk_m projects__background_clr_purple projects__background_unactive-purple"></li>
+            <li class="projects__background_blk_s projects__background_clr_green"></li>
+            <li class="projects__background_blk_s projects__background_clr_purple"></li>
+            <li class="projects__background_blk_m projects__background_clr_green projects__background_unactive-green"></li>
+          </ul>
+          <div class="splide project-cards" id="splide-projects">
+            <div class="splide__arrows">
+              <button class="splide__arrow splide__arrow--prev projects__arrow-prev"></button>
+              <button class="splide__arrow splide__arrow--next projects__arrow-next"></button>
+            </div>
+            <div class="splide__track">
+              <ul class="splide__list project-cards__list">
+                <li class="splide__slide project-cards__item">
+                  <a href="#" target="_blank" class="project-cards__link">
+                    <img src="./images/project_first_picture.png" alt="Мужчина, сидящий на диване" class="project-cards__image">
+                    <h3 class="project-cards__title">Название проекта</h3>
+                  </a>
+                </li>
+                <li class="splide__slide project-cards__item">
+                  <a href="#" target="_blank" class="project-cards__link">
+                    <img src="./images/project_second_picture.png" alt="Мужчина" class="project-cards__image">
+                    <h3 class="project-cards__title">Название проекта</h3>
+                  </a>
+                </li>
+                <li class="splide__slide project-cards__item">
+                  <a href="#" target="_blank" class="project-cards__link">
+                    <img src="./images/project_third_picture.png" alt="Фото мужчины" class="project-cards__image">
+                    <h3 class="project-cards__title">Название проекта</h3>
+                  </a>
+                </li>
+                <li class="splide__slide project-cards__item">
+                  <a href="#" target="_blank" class="project-cards__link">
+                    <img src="./images/project_fourth_picture.png" alt="Мужчина, смотрящий на часы" class="project-cards__image">
+                    <h3 class="project-cards__title">Название проекта</h3>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
 
-  </footer>
-  <script src="./scripts/news_slider.js"></script>
-  <script src="./scripts/script.js"></script>
-</body>
+    </footer>
+    <script src="./scripts/sliders.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>

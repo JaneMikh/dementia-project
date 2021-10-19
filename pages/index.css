@@ -4,10 +4,21 @@
 @import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css');
 /*Блок page*/
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__title/page__title.css);
+@import url(../blocks/page/__subtitle/page__subtitle.css);
+
+/*Стили для слайдеров*/
+@import url(../blocks/splide/splide__arrow.css);
+@import url(../blocks/news/__arrow-prev/news__arrow-prev.css);
+@import url(../blocks/news/__arrow-next/news__arrow-next.css);
+@import url(../blocks/projects/__arrow-prev/projects__arrow-prev.css);
+@import url(../blocks/projects/__arrow-next/projects__arrow-next.css);
+@import url(../blocks/splide/__pagination/splide__pagination__page.css);
+
 /*Блок news*/
 @import url(../blocks/content/content.css);
 @import url(../blocks/news/news.css);
-@import url(../blocks/news/__heading/news__heading.css);
+@import url(../blocks/news/__title/news__title.css);
 @import url(../blocks/news/__subtitle/news__subtitle.css);
 @import url(../blocks/news/__list/news__list.css);
 @import url(../blocks/news/__background/news__background.css);
@@ -18,3 +29,31 @@
 @import url(../blocks/news-card/__title/news-card__title.css);
 @import url(../blocks/news-card/__description/news-card__description.css);
 @import url(../blocks/news-card/__link/news-card__link.css);
+
+/*Блок projects*/
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__puzzle/projects__puzzle.css);
+@import url(../blocks/projects/__puzzle/_animation/projects__puzzle_animation.css);
+
+@import url(../blocks/projects/__semicircle/projects__semicircle.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__subtitle/projects__subtitle.css);
+@import url(../blocks/projects/__content/projects__content.css);
+
+
+@import url(../blocks//projects/__background/projects__background.css);
+@import url(../blocks//projects/__background/_blk/projects__background_blk_m.css);
+@import url(../blocks//projects/__background/_blk/projects__background_blk_s.css);
+@import url(../blocks//projects/__background/_clr/projects__background_clr_purple.css);
+@import url(../blocks//projects/__background/_clr/projects__background_clr_green.css);
+@import url(../blocks//projects/__background/_unactive-purple/projects__background_unactive-purple.css);
+@import url(../blocks//projects/__background/_unactive-green/projects__background_unactive-green.css);
+
+@import url(../blocks/project-cards/project-cards.css);
+@import url(../blocks/project-cards/__list/project-cards__list.css);
+@import url(../blocks/project-cards/__item/project-cards__item.css);
+@import url(../blocks/project-cards/__item/_green/project-cards__item_green.css);
+@import url(../blocks/project-cards/__item/_purple/project-cards__item_purple.css);
+@import url(../blocks/project-cards/__link/project-cards__link.css);
+@import url(../blocks/project-cards/__image/project-cards__image.css);
+@import url(../blocks/project-cards/__title/project-cards__title.css);

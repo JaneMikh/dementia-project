@@ -1,0 +1,9 @@
+.projects__background_unactive-purple {
+  display: block;
+}
+
+@media all and (max-width: 620px) {
+  .projects__background_unactive-purple {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.fund__element1 {
+  width: 234.51px;
+  height: 267.76px;
+  background-image: url(../../../images/fund-element1.png);
+  background-size: cover;
+  margin-top: -31.14px;
+}
+
+@media (max-width: 876px) {
+  .fund__element1 {
+    background-position: right;
+  }
+}
+
+@media (max-width: 840px) {
+  .fund__element1 {
+    width: 118.82px;
+    height: 181.74px;
+    margin-top: -3px;
+  }
+}
+
+@media (max-width: 620px) {
+  .fund__element1 {
+    width: 110.15px;
+    height: 168.47px;
+    margin-top: -11.53px;
+  }
+}
+

@@ -1,0 +1,6 @@
+.projects {
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

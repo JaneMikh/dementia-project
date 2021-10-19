@@ -1,0 +1,17 @@
+.article__image-container {
+  position: relative;
+}
+
+.article__image-container::before {
+  content: '';
+  background-image: url("../../../images/semicircle_fiolet.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  height: 300px;
+  width: 150px;
+  position: absolute;
+  top: 83%;
+  left: 4%;
+  z-index: 1;
+}

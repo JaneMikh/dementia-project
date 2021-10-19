@@ -1,0 +1,7 @@
+.project-cards {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border: none;
+  z-index: 3;
+}

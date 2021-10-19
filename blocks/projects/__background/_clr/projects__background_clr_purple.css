@@ -1,0 +1,16 @@
+.projects__background_clr_purple {
+  background-color: #6d097a;
+  display: block;
+}
+
+@media all and (max-width: 840px) {
+  .projects__background_clr_purple {
+    width: 223px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__background_clr_purple {
+    width: 160px;
+  }
+}

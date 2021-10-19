@@ -1,0 +1,7 @@
+.news__arrow-prev {
+  background-image: url('../../../images/slider_left_button.svg');
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 45%;
+  left: -15px;
+}

@@ -1,0 +1,19 @@
+.page__subtitle {
+  color: #5b5b5b;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+@media all and (max-width: 840px) {
+  .page__subtitle {
+    font-size: 11px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .page__subtitle {
+    font-size: 10px;
+  }
+}

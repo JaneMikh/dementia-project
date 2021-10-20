@@ -1,0 +1,16 @@
+.header__section-info {
+    grid-area: info;
+    padding-left: 62px;
+}
+
+@media screen and (max-width:850px) {
+    .header__section-info {
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .header__section-info {
+        padding: 30px 0 0 23px;
+    }
+}

@@ -1,17 +1,17 @@
 .map__map-image {
-    background-image: url(../../../images/map/151-layers.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: 92px;
-    margin-left: 128px;
-    width: 691px;
-    height: 359px;
+    margin-bottom: 82px;
+}
+
+@media (max-width: 960px) {
+    .map__map-image {
+        margin-left: 128px;
+        width: 71.98vw;
+    }
 }
 
 @media (max-width: 640px) {
     .map__map-image {
-        width: 552px;
-        height: 287px;
+        width: 86.25vw;
         margin-bottom: 60px;
         margin-left: 45px;
     }
@@ -19,9 +19,8 @@
 
 @media (max-width: 320px) {
     .map__map-image {
-        width: 328px;
-        height: 150px;
         margin-bottom: 26px;
         margin-left: 16px;
+        width: 91.25vw;
     }
 }

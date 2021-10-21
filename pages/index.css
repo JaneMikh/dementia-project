@@ -1,3 +1,5 @@
+/* header */
+
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/header/header.css);
@@ -49,6 +51,12 @@
 @import url(../blocks/dropdown-menu/__link/dropdown-menu-link.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/dropdown-menu/_click-open/dropdown-menu_click-open.css);
+@import url(../blocks/sliders/sliders.css);
+@import url(../blocks/sliders/__list/sliders__list.css);
+@import url(../blocks/sliders/__slide/sliders__slide.css);
+@import url(../blocks/sliders/__img/sliders__img.css);
+@import url(../blocks/sliders/__name-article/sliders__name-article.css);
+@import url(../blocks/sliders/__link/sliders__link.css);
 
 /*info*/
 

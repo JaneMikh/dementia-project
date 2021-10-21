@@ -13,19 +13,19 @@
 
 <body class="page">
     <header class="header">
-        <div class="header__section-title">
-            <div class="header__title-container">
-                <img src="./images/icon_head_left_svg.svg" alt="Иконка" class="header__title-icon">
-                <h1 class="header__title"><a href="#" class="header__link header__link_type_main"><span class="header__first-letter">деменция</span><span class="header__last-letter">.net</span></a></h1>
-                <p class="header__title-text">Проект благотворительного&nbsp;фонда "Память&nbsp;поколений"</p>
-            </div>
-            <img src="./images/icon_head_rigth_svg.svg" alt="Рисунок пазл" class="header__title-icon header__title-icon_type_center header__rotation">
-        </div>
+      <div class="header__section-title">
+          <div class="header__title-container">
+              <img src="./images/icon_head_left_svg.svg" alt="Иконка" class="header__title-icon">
+              <h1 class="header__title"><a href="#" class="header__link header__link_type_main"><span class="header__first-letter">деменция</span><span class="header__last-letter">.net</span></a></h1>
+              <p class="header__title-text">Проект благотворительного&nbsp;фонда "Память&nbsp;поколений"</p>
+          </div>
+          <img src="./images/icon_head_rigth_svg.svg" alt="Рисунок пазл" class="header__title-icon header__title-icon_type_center header__rotation">
+      </div>
       <div class="header__menu">
         <img src="./images/menu_icon.png" class="header__button" alt="Иконка меню">
         <nav class="dropdown-menu header__dropdown-menu">
           <ul class="dropdown-menu__links">
-            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">О деменции</a></li>
+            <li class="dropdown-menu__item"><a href="#demencia" class="dropdown-menu__link">О деменции</a></li>
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Проекты</a></li>
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Партнеры</a></li>
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Новости</a></li>
@@ -37,7 +37,7 @@
       <div class="header__section-links">
         <nav>
           <ul class="header__links">
-            <li class="header__link-container"><a href="#" class="header__link header__link_type_button">О деменции</a></li>
+            <li class="header__link-container"><a href="#demencia" class="header__link header__link_type_button">О деменции</a></li>
             <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Проекты</a></li>
             <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Партнеры</a></li>
             <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Новости</a></li>
@@ -45,6 +45,25 @@
             <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Контакты</a></li>
           </ul>
         </nav>
+        <div class="sliders">
+            <ul class="sliders__list">
+              <li class="sliders__slide">
+                <img src="./images/pietro-schellino-MeQ6cKkozpY-unsplash (1).jpg" class="sliders__img">
+                <p class="sliders__name-article">О деменции</p>
+                <p class="sliders__link">https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BC%D0%B5%D0%BD%D1%86%D0%B8%D1%8F</p>
+              </li>
+              <li class="sliders__slide">
+                <img src="./images/project_fourth_picture.png" class="sliders__img">
+                <p class="sliders__name-article">Эпидемия деменции</p>
+                <p class="sliders__link">https://novayagazeta.ru/articles/2020/03/16/84347-starost-nastupaet</p>
+              </li>
+              <li class="sliders__slide">
+                <img src="./images/project_third_picture.png" class="sliders__img">
+                <p class="sliders__name-article">Останови деменцию</p>
+                <p class="sliders__link">https://www.bbc.com/russian/science/2013/12/131212_dementia_five_ways</p>
+              </li>
+            </ul>
+        </div>
         <div class="header__switch-container">
           <button class="header__switch"></button>
           <button class="header__switch header__switch_type_activ"></button>
@@ -52,7 +71,7 @@
         </div>
         <div class="header__article-container">
           <h2 class="header__name-article">Заголовок статьи</h2>
-          <a href="#" class="header__link header__link_type_article">Подробнее</a>
+          <a href="#" class="header__link header__link_type_article" target="_blank">Подробнее</a>
           <img src="./images/semicircle_white.svg" alt="Геометрическая фигура" class="header__semicircle-white header__flicker-white">
         </div>
       </div>
@@ -83,7 +102,7 @@
     <main class="content">
         <section class="info">
             <div class="about">
-                <h2 class="about__header">О ДЕМЕНЦИИ</h2>
+                <h2 class="about__header" id="demencia">О ДЕМЕНЦИИ</h2>
                 <p class="about__paragraph">Благотворительный Фонд «ПАМЯТЬ ПОКОЛЕНИЙ» - единственная в России некоммерческая организация, формирующая новую благотворительную традицию по оказанию адресной высокотехнологичной медицинской помощи ветеранам всех боевых действий, в которых
                     принимала участие наша страна.</p>
                 <p class="about__paragraph">Необходимо описание!</p>

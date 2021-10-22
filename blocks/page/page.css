@@ -2,7 +2,7 @@
   max-width: 960px;
   min-width: 320px;
   margin: 0 auto;
-  font-family: "Golos-UI", Arial, sans-serif;
+  font-family: Golos, Arial, sans-serif;
   background-color: #FEFEFE;
   overflow-x: hidden;
 }

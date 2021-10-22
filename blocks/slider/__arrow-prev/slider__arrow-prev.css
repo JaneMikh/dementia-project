@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 620px) {
-  .slider__arrow-prev{
+  .slider__arrow-prev {
     top: 16.09px;
     left: -12.05px;
   }

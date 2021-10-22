@@ -1,0 +1,17 @@
+.projects__subtitle {
+  margin: 0 107px 70px 0;
+  align-self: flex-end;
+  z-index: 2;
+}
+
+@media all and (max-width: 840px) {
+  .projects__subtitle {
+    margin: 0 46px 75px 0;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__subtitle {
+    margin: 0 34px 55px 0;
+  }
+}

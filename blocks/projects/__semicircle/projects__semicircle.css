@@ -1,0 +1,28 @@
+.projects__semicircle {
+  background-image: url(../../../images/projects_semicircle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 151px;
+  height: 301px;
+  position: absolute;
+  right: 0;
+  bottom: -65px;
+  z-index: 2;
+}
+
+@media all and (max-width: 840px) {
+  .projects__semicircle {
+    width: 138px;
+    height: 276px;
+    bottom: -57px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__semicircle {
+    width: 99px;
+    height: 199px;
+    bottom: -40px;
+  }
+}

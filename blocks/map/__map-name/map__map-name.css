@@ -1,0 +1,25 @@
+.map__map-name {
+    color: #5b5b5b;
+    font-family: "Golos";
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 27px;
+    padding-left: 105px;
+}
+
+@media (max-width: 640px) {
+    .map__map-name {
+        font-size: 12px;
+        padding-bottom: 21px;
+        padding-left: 41px;
+    }
+}
+
+@media (max-width: 320px) {
+    .map__map-name {
+        font-size: 10px;
+        padding-bottom: 9px;
+        padding-left: 24px;
+    }
+}

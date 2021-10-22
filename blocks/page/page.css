@@ -4,5 +4,10 @@
   margin: 0 auto;
   font-family: Golos, Arial, sans-serif;
   background-color: #FEFEFE;
-  overflow-x: hidden;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }

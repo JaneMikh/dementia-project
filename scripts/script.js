@@ -1,12 +1,13 @@
+/*Начало - info*/
 let isScrolling = false;
 
 window.addEventListener("scroll", throttleScroll, false);
 
 function throttleScroll(e) {
-    if (isScrolling == false ) {
+    if (isScrolling == false) {
         window.requestAnimationFrame(function() {
-          dealWithScrolling(e);
-          isScrolling = false;
+            dealWithScrolling(e);
+            isScrolling = false;
         });
     }
     isScrolling = true;
@@ -19,33 +20,33 @@ const bigGreenPuzzle = document.querySelector(".test__img-green-puzzle");
 const smallGreenPuzzle = document.querySelector(".definition__img-puzzle");
 
 function dealWithScrolling(e) {
-  if (isPartiallyVisible(smallGreenPuzzle)) {
-    smallGreenPuzzle.classList.add("active");
-  } else {
-    smallGreenPuzzle.classList.remove("active");
-  }
+    if (isPartiallyVisible(smallGreenPuzzle)) {
+        smallGreenPuzzle.classList.add("active");
+    } else {
+        smallGreenPuzzle.classList.remove("active");
+    }
 
-  if (isPartiallyVisible(bigGreenPuzzle)) {
-    bigGreenPuzzle.classList.add("active");
-  } else {
-    bigGreenPuzzle.classList.remove("active");
-  }
+    if (isPartiallyVisible(bigGreenPuzzle)) {
+        bigGreenPuzzle.classList.add("active");
+    } else {
+        bigGreenPuzzle.classList.remove("active");
+    }
 
-  if (isPartiallyVisible(purplePuzzle)) {
-    purplePuzzle.classList.add("active");
-  } else {
-    purplePuzzle.classList.remove("active");
-  }
+    if (isPartiallyVisible(purplePuzzle)) {
+        purplePuzzle.classList.add("active");
+    } else {
+        purplePuzzle.classList.remove("active");
+    }
 }
 
 function isPartiallyVisible(el) {
-  const elementBoundary = el.getBoundingClientRect();
+    const elementBoundary = el.getBoundingClientRect();
 
-  const top = elementBoundary.top;
-  const bottom = elementBoundary.bottom;
-  const height = elementBoundary.height;
+    const top = elementBoundary.top;
+    const bottom = elementBoundary.bottom;
+    const height = elementBoundary.height;
 
-  return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+    return ((top + height >= 0) && (height + window.innerHeight >= bottom));
 }
 
 // function isFullyVisible(el) {
@@ -56,3 +57,58 @@ function isPartiallyVisible(el) {
 
 //   return ((top >= 0) && (bottom <= window.innerHeight));
 // }
+
+/*Конец - info*/
+//Открытие попап карты - Коми
+const komi = document.querySelector('.map__komi-button');
+const komiMap = document.querySelector('.map__komi')
+const komiPopup = document.querySelector('.map__popup');
+komi.addEventListener('click', () => {
+    komiPopup.classList.toggle('map__popup_show')
+})
+komiMap.style.fill = '#9a34a8';
+komi.addEventListener('mouseover', () => {
+    komiMap.style.fill = '#6d097a';
+});
+komi.addEventListener('mouseout', () => {
+    komiMap.style.fill = '#9a34a8';
+});
+
+//Изменение размера карты
+const originalViewBox = komiMap.getAttribute('transform');
+const mq = window.matchMedia("(max-width: 320px)");
+
+function updateViewBox() {
+    if (mq.matches) {
+
+        komiMap.setAttribute('transform', 'scale(0.88)');
+    } else {
+        komiMap.setAttribute('transform', originalViewBox);
+    }
+};
+updateViewBox();
+mq.addListener(updateViewBox);
+//Вот накой черт я потратил на тебя столько времени?! надо быть внимательней....><
+var splide = new Splide("#splide", {
+    type: "loop",
+    perPage: 6,
+    perMove: 1,
+    gap: 31.15,
+    pagination: 0,
+    fixedWidth: 97.98,
+    breakpoints: {
+        840: {
+            perPage: 5,
+            gap: 25.48,
+            fixedWidth: 78.96,
+        },
+        620: {
+            perPage: 4,
+            gap: 9.56,
+            fixedWidth: 51.63,
+        },
+    },
+});
+
+splide.mount();
+s

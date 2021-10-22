@@ -1,0 +1,9 @@
+.projects__background_blk_m {
+  width: 275px;
+}
+
+@media all and (max-width: 620px) {
+  .projects__background_blk_m {
+    width: 160px;
+  }
+}

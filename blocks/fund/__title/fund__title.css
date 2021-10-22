@@ -1,0 +1,28 @@
+.fund__title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 42.65px;
+  line-height: 50px;
+  text-align: left;
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+@media (max-width: 840px) {
+  .fund__title {
+    margin-bottom: 8.22px;
+    font-size: 33.92px;
+    line-height: 33.92px;
+  }
+}
+
+@media (max-width: 620px) {
+  .fund__title {
+    text-align: right;
+    margin-bottom: 11.47px;
+    margin-right: 6px;
+    font-size: 23.33px;
+    line-height: 23.33px;
+  }
+}

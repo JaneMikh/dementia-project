@@ -1,0 +1,17 @@
+.slider__item-content {
+  object-fit: contain;
+  width: 97.98px;
+  height: 100%;
+}
+
+@media (max-width: 840px) {
+  .slider__item-content {
+    width: 78.96px;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider__item-content {
+    width: 51.5px;
+  }
+}

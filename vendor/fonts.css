@@ -1,29 +1,26 @@
 @font-face {
-  font-family: 'Montserrat';
-  src: url(../vendor/fonts/Montserrat-MediumItalic.ttf) format('ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Golos-UI";
-  src: url(../vendor/fonts/Golos-UI_Bold.ttf) format("ttf");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Golos-UI";
-  src: url(../vendor/fonts/Golos-UI_Regular.ttf) format("ttf");
+  font-family: 'Golos';
+  font-style:  normal;
   font-weight: 400;
+  font-display: swap;
+  src: url(../font/Golos-Text_Regular.woff2) format('woff2'),
+       url(../font/Golos-Text_Regular.woff) format('woff');
 }
 
 @font-face {
-  font-family: "Golos-UI";
-  src: url(../vendor/fonts/Golos-UI_Medium.ttf) format("ttf");
-  font-weight: 500;
+  font-family: 'Golos';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../font/Golos-Text_Bold.woff2) format('woff2'),
+       url(../font/Golos-Text_Bold.woff) format('woff');
 }
 
 @font-face {
-  font-family: "Golos-UI-VF";
-  src: url(../vendor/fonts/Golos-UI_VF.ttf) format("ttf");
-  font-weight: 400;
+  font-family: 'Golos';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../font/Golos-Text_Black.woff2) format('woff2'),
+       url(../font/Golos-Text_Black.woff) format('woff');
 }

@@ -113,3 +113,19 @@ var splide = new Splide("#splide-partners", {
 });
 
 splide.mount();
+
+//анимация для блока fund//
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    const fundElement1 = entry.target.querySelector(".fund__element1");
+    if (entry.isIntersecting) {
+      fundElement1.classList.add("fund__element1-animation");
+      return;
+    }
+
+    fundElement1.classList.remove("fund__element1-animation");
+  });
+});
+
+observer.observe(document.querySelector(".fund"));

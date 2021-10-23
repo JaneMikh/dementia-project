@@ -165,6 +165,7 @@
 /*Стили для слайдера в блоке Partners*/
 
 @import url(../blocks/splide/__arrow/splide__arrow.css);
+@import url(../blocks/splide/__arrow-partners/splide__arrow-partners.css);
 @import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_next.css);
 @import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_prev.css);
 

@@ -6,14 +6,14 @@
 }
 
 @media (max-width: 840px) {
-  .slider__arrow-next {
+  .splide__arrow_partners_next {
     top: 29.8px;
     right: -25.53px;
   }
 }
 
 @media (max-width: 620px) {
-  .slider__arrow-next {
+  .splide__arrow_partners_next {
     top: 16.09px;
     right: -12.05px;
   }

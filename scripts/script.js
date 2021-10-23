@@ -113,6 +113,29 @@ var splide = new Splide('#splide-projects', {
 });
 splide.mount();
 
+//Слайдер с партнерами
+var splide = new Splide("#splide", {
+    type: "loop",
+    perPage: 6,
+    perMove: 1,
+    gap: 31.15,
+    pagination: 0,
+    fixedWidth: 97.98,
+    breakpoints: {
+        840: {
+            perPage: 5,
+            gap: 25.48,
+            fixedWidth: 78.96,
+        },
+        620: {
+            perPage: 4,
+            gap: 9.56,
+            fixedWidth: 51.63,
+        },
+    },
+});
+splide.mount();
+
 //Открытие попап карты - Коми
 const komi = document.querySelector('.map__komi-button');
 const komiMap = document.querySelector('.map__komi')
@@ -144,25 +167,3 @@ updateViewBox();
 mq.addListener(updateViewBox);
 
 
-var splide = new Splide("#splide", {
-    type: "loop",
-    perPage: 6,
-    perMove: 1,
-    gap: 31.15,
-    pagination: 0,
-    fixedWidth: 97.98,
-    breakpoints: {
-        840: {
-            perPage: 5,
-            gap: 25.48,
-            fixedWidth: 78.96,
-        },
-        620: {
-            perPage: 4,
-            gap: 9.56,
-            fixedWidth: 51.63,
-        },
-    },
-});
-
-splide.mount();

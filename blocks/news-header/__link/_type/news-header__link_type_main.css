@@ -1,0 +1,7 @@
+.news-header__link_type_main {
+  border: none;
+}
+
+.news-header__link_type_main:hover {
+  border-bottom: 2px solid #6D097A;
+}

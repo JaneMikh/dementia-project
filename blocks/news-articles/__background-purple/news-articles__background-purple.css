@@ -1,0 +1,9 @@
+.news-articles__background-purple {
+  background-color: #6d097a;
+  width: 83%;
+  height: 843px;
+  position: absolute;
+  top: 605px;
+  margin: 0 165px;
+  z-index: -1;
+}

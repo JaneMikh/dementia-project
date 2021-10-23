@@ -213,7 +213,7 @@
         </section>
 
         <section class="fund">
-            <div class="fund__element1"></div>
+            <div class="fund__element1 fund__element1-animation"></div>
             <div class="fund__items">
                 <h2 class="fund__title">О фонде</h2>
                 <p class="fund__text">
@@ -223,22 +223,23 @@
                 <a href="https://pamyatpokoleniy.ru/" class="fund__link">Перейти на сайт фонда</a
           >
         </div>
-        <div class="fund__element2"></div>
+        <div class="fund__element2 fund__element2-animation"></div>
         <div class="fund__container-logo"><div class="fund__logo"></div></div>
       </section>
       <section class="partners">
-        <div class="partners__element"></div>
+        <div class="partners__element partners__element-animation"></div>
         <h2 class="partners__title">Кто с нами?</h2>
         <p class="partners__subtitle">Партнеры</p>
-
-        <div class="partners__content">
-
-        <div class="splide slider" id="splide">
+        <div class="splide slider" id="splide-partners">
           <div class="splide__arrows">
-            <button class="splide__arrow splide__arrow--prev"></button>
-            <button class="splide__arrow splide__arrow--next"></button>
+            <button
+              type= "button" class="splide__arrow splide__arrow--prev splide__arrow_partners_prev"
+            ></button>
+            <button
+            type= "button" class="splide__arrow splide__arrow--next splide__arrow_partners_next"
+            ></button>
           </div>
-          <div class="splide__track">
+          <div class="splide__track" >
             <ul class="splide__list">
               <li class="splide__slide slider__item">
                 <img  src="./images/partners-logo-sber.png" class="slider__item-content" alt="логотип сбербанка">
@@ -262,7 +263,6 @@
           </div>
         </div>
 
-        </div>
       </section>
     </main>
     <footer class="footer">
@@ -271,6 +271,5 @@
     <script src="./scripts/sliders.js"></script>
     <script src="./scripts/news_slider.js"></script>
     <script src="./scripts/script.js"></script>
-</body>
-
+  </body>
 </html>

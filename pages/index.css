@@ -141,7 +141,7 @@
 @import url(../blocks/project-cards/__image/project-cards__image.css);
 @import url(../blocks/project-cards/__title/project-cards__title.css);
 
-/**/
+/*Блок Fund*/
 
 @import url(../blocks/fund/fund.css);
 @import url(../blocks/fund/__element1/fund__element1.css);
@@ -152,17 +152,25 @@
 @import url(../blocks/fund/__logo/fund__logo.css);
 @import url(../blocks/fund/__link/fund__link.css);
 @import url(../blocks/fund/__element2/fund__element2.css);
+@import url(../blocks/fund/__element1-animation/fund__element1-animation.css);
+
+/*Блок Partners*/
+
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__element/partners__element.css);
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__subtitle/partners__subtitle.css);
-@import url(../blocks/partners/__content/partners__content.css);
+@import url(../blocks/partners/__element-animation/partners__element-animation.css);
+
+/*Стили для слайдера в блоке Partners*/
+
+@import url(../blocks/splide/__arrow/splide__arrow.css);
+@import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_next.css);
+@import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_prev.css);
+
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__item/slider__item.css);
 @import url(../blocks/slider/__item-content/slider__item-content.css);
-@import url(../blocks/slider/__button/slider__button.css);
-@import url(../blocks/slider/__button-left/slider__button-left.css);
-@import url(../blocks/slider/__button-right/slider__button-right.css);
 
 /*Начала -  блок map*/
 

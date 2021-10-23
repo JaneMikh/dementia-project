@@ -1,0 +1,18 @@
+.fund__element1-animation {
+  animation: move-fund-element1 5s ease-in-out;
+}
+
+@keyframes move-fund-element1 {
+  0% {
+    margin-top: -31.14px; 
+    opacity: 1; 
+  }
+  50% {
+    margin-top: -3px;
+    opacity: 1;
+  }
+  100% {
+    margin-top: -31.14px;
+    opacity: 1;
+  }
+}

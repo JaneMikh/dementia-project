@@ -5,20 +5,20 @@
   font-size: 43px;
   font-weight: 700;
   line-height: normal;
-  margin: 37px 128px 12px 0;
+  margin: 37px 110px 12px 0;
   align-self: flex-end;
 }
 
 @media all and (max-width: 840px) {
   .news__heading {
     font-size: 34px;
-    margin: 26px 68px 8px 0;
+    margin: 26px 52px 8px 0;
   }
 }
 
 @media all and (max-width: 620px) {
   .news__heading {
     font-size: 23px;
-    margin: 12px 41px 5px 0;
+    margin: 12px 36px 5px 0;
   }
 }

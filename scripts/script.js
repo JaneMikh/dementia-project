@@ -59,6 +59,61 @@ function isPartiallyVisible(el) {
 // }
 
 /*Конец - info*/
+
+//Слайдер с новостями
+var splide = new Splide('#splide-news', {
+  pagination: 0,
+  type: 'loop',
+  gap: '15px',
+  focus: '1',
+  perPage: 3,
+  width: '80%',
+  breakpoints: {
+    840: {
+      perPage: 3,
+      gap: '14px',
+      width: '88%'
+    },
+    620: {
+      perPage: 2,
+      gap: '10px',
+      width: '90%',
+    },
+  },
+  classes: {
+    prev: 'splide__arrow--prev splide__arrow_news_prev',
+		next: 'splide__arrow--next splide__arrow_news_next',
+  }
+});
+splide.mount();
+
+//Слайдер с проектами
+var splide = new Splide('#splide-projects', {
+  pagination: 0,
+  type: 'loop',
+  perPage: 4,
+  gap: '59px',
+  focus: '1',
+  width: '80%',
+  breakpoints: {
+    840: {
+      perPage: 3,
+      width: '83%',
+      gap: '56px',
+    },
+    620: {
+      perPage: 2,
+      width: '70%',
+      gap: '42px',
+    },
+  },
+  classes: {
+    prev: 'splide__arrow--prev splide__arrow_projects_prev',
+		next: 'splide__arrow--next splide__arrow_projects_next',
+  },
+});
+splide.mount();
+
 //Открытие попап карты - Коми
 const komi = document.querySelector(".map__komi-button");
 const komiMap = document.querySelector(".map__komi");
@@ -88,6 +143,8 @@ function updateViewBox() {
 updateViewBox();
 mq.addListener(updateViewBox);
 //Вот накой черт я потратил на тебя столько времени?! надо быть внимательней....><
+
+//Слайдер с партнерами
 var splide = new Splide("#splide-partners", {
   type: "loop",
   perPage: 6,

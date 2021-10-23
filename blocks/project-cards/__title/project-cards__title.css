@@ -21,5 +21,6 @@
 @media all and (max-width: 620px) {
   .project-cards__title {
     font-size: 10px;
+    max-width: 80px;
   }
 }

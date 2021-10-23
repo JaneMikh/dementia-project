@@ -1,0 +1,7 @@
+.splide__arrow_projects_next {
+  background-image:url('../../../../images/slider_right_button.svg');
+  background-repeat: no-repeat;
+  position:absolute;
+  top: 50%;
+  right: -15px;
+}

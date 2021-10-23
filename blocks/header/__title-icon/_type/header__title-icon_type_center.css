@@ -1,6 +1,6 @@
 .header__title-icon_type_center {
-  margin: 0 0 43px 0;
-  align-self: flex-end;
+    margin: 0 0 43px 0;
+    align-self: flex-end;
 }
 
 @media screen and (max-width:850px) {

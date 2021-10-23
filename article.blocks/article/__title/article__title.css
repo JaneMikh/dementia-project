@@ -1,9 +1,9 @@
 .article__title {
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
   color: #6D097A;
   max-width: 1400px;
   text-align: center;
   margin: 35px auto 41px auto;
-  font-size: 44px;
+  font-size: 56px;
 }

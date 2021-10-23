@@ -1,0 +1,6 @@
+.news-slide__image {
+  max-width: 431px;
+  height: 324px;
+  object-fit: cover;
+  object-position: center;
+}

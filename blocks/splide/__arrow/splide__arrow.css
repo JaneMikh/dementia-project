@@ -1,12 +1,31 @@
 .splide__arrow {
+  z-index: 3;
   background: none;
+<<<<<<< HEAD
   width: 14px;
   height: 27px;
+=======
+  transform: none;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 23px;
+  background-size: contain;
+>>>>>>> ea67c5dd6d51351b91de1cb8d4b4eefbd8c9f6cc
 }
 
-@media all and (max-width: 840px) {
+@media (max-width: 840px) {
   .splide__arrow {
-    width: 13px;
-    height: 25px;
+    width: 9.86px;
+    height: 19.73px;
   }
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 620px) {
+  .splide__arrow {
+    width: 8.76px;
+    height: 17.51px;
+  }
+}
+>>>>>>> ea67c5dd6d51351b91de1cb8d4b4eefbd8c9f6cc

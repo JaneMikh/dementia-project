@@ -107,8 +107,8 @@ var splide = new Splide("#splide-partners", {
     },
   },
   classes: {
-    prev: "splide__arrow--prev slider__arrow-prev",
-    next: "splide__arrow--next slider__arrow-next",
+    prev: "splide__arrow--prev splide__arrow_partners_prev",
+    next: "splide__arrow--next splide__arrow_partners_next",
   },
 });
 

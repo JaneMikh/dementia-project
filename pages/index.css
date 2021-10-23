@@ -165,12 +165,12 @@
 /*Стили для слайдера в блоке Partners*/
 
 @import url(../blocks/splide/__arrow/splide__arrow.css);
+@import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_next.css);
+@import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_prev.css);
 
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__item/slider__item.css);
 @import url(../blocks/slider/__item-content/slider__item-content.css);
-@import url(../blocks/slider/__arrow-next/slider__arrow-next.css);
-@import url(../blocks/slider/__arrow-prev/slider__arrow-prev.css);
 
 /*Начала -  блок map*/
 

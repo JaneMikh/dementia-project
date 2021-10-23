@@ -2,7 +2,6 @@
   background: none;
   width: 14px;
   height: 27px;
-  fill: #fefefe;
 }
 
 @media all and (max-width: 840px) {
@@ -11,4 +10,3 @@
     height: 25px;
   }
 }
-

@@ -73,43 +73,17 @@
 @import url(../blocks/test/__img-notebook/test__img-notebook.css);
 @import url(../blocks/test/__img-button-border/test__img-button-border.css);
 @import url(../blocks/active/active.css);
-<<<<<<< HEAD
-=======
 
-@import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css');
-
-/*Блок page*/
-
-@import url(../blocks/page/page.css);
-
+/*Стили для слайдеров news и projects*/
 /*Блок news*/
-
-@import url(../blocks/content/content.css);
-@import url(../blocks/news/news.css);
-@import url(../blocks/news/__heading/news__heading.css);
-@import url(../blocks/news/__subtitle/news__subtitle.css);
-@import url(../blocks/news/__list/news__list.css);
-@import url(../blocks/news/__background/news__background.css);
-@import url(../blocks/news/__content/news__content.css);
-@import url(../blocks/news-card/news-card.css);
-@import url(../blocks/news-card/__image/news-card__image.css);
-@import url(../blocks/news-card/__title/news-card__title.css);
-@import url(../blocks/news-card/__description/news-card__description.css);
-@import url(../blocks/news-card/__link/news-card__link.css);
-
-/*Блок page*/
-
-@import url(../blocks/page/page.css);
-@import url(../blocks/page/__title/page__title.css);
-@import url(../blocks/page/__subtitle/page__subtitle.css);
->>>>>>> ea67c5dd6d51351b91de1cb8d4b4eefbd8c9f6cc
-
-/*Стили для слайдеров*/
 @import url(../blocks/splide/splide.css);
 @import url(../blocks/splide/__arrow/splide__arrow.css);
+@import url(../blocks/splide/__arrow/_news/splide__arrow_news.css);
 @import url(../blocks/splide/__arrow/_news/splide__arrow_news_prev.css);
 @import url(../blocks/splide/__arrow/_news/splide__arrow_news_next.css);
+/*Блок projects*/
 @import url(../blocks/splide/__projects/splide__projects.css);
+@import url(../blocks/splide/__arrow/_projects/splide__arrow_projects.css);
 @import url(../blocks/splide/__arrow/_projects/splide__arrow_projects_prev.css);
 @import url(../blocks/splide/__arrow/_projects/splide__arrow_projects_next.css);
 
@@ -149,12 +123,7 @@
 @import url(../blocks/project-cards/__image/project-cards__image.css);
 @import url(../blocks/project-cards/__title/project-cards__title.css);
 
-<<<<<<< HEAD
 /*Блок fund*/
-=======
-/*Блок Fund*/
-
->>>>>>> ea67c5dd6d51351b91de1cb8d4b4eefbd8c9f6cc
 @import url(../blocks/fund/fund.css);
 @import url(../blocks/fund/__element1/fund__element1.css);
 @import url(../blocks/fund/__items/fund__items.css);
@@ -166,17 +135,15 @@
 @import url(../blocks/fund/__element2/fund__element2.css);
 @import url(../blocks/fund/__element1-animation/fund__element1-animation.css);
 
-/*Блок Partners*/
-
+/*Блок partners*/
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__element/partners__element.css);
 @import url(../blocks/partners/__title/partners__title.css);
 @import url(../blocks/partners/__subtitle/partners__subtitle.css);
 @import url(../blocks/partners/__element-animation/partners__element-animation.css);
 
-/*Стили для слайдера в блоке Partners*/
-
-@import url(../blocks/splide/__arrow/splide__arrow.css);
+/*Стили для слайдера в блоке partners*/
+@import url(../blocks/splide/__arrow/_partners/splide__arrow_partners.css);
 @import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_next.css);
 @import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_prev.css);
 

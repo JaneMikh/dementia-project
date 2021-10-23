@@ -115,27 +115,33 @@ var splide = new Splide('#splide-projects', {
 splide.mount();
 
 //Слайдер с партнерами
-var splide = new Splide("#splide", {
-    type: "loop",
-    perPage: 6,
-    perMove: 1,
-    gap: 31.15,
-    pagination: 0,
-    fixedWidth: 97.98,
-    breakpoints: {
-        840: {
-            perPage: 5,
-            gap: 25.48,
-            fixedWidth: 78.96,
-        },
-        620: {
-            perPage: 4,
-            gap: 9.56,
-            fixedWidth: 51.63,
-        },
+var splide = new Splide("#splide-partners", {
+  type: "loop",
+  perPage: 6,
+  perMove: 1,
+  gap: 31.15,
+  pagination: 0,
+  fixedWidth: 97.98,
+  breakpoints: {
+    840: {
+      perPage: 5,
+      gap: 25.48,
+      fixedWidth: 78.96,
     },
+    620: {
+      perPage: 4,
+      gap: 9.56,
+      fixedWidth: 51.63,
+    },
+  },
+  classes: {
+    prev: "splide__arrow--prev splide__arrow_partners_prev",
+    next: "splide__arrow--next splide__arrow_partners_next",
+  },
 });
+
 splide.mount();
+
 
 //Открытие попап карты - Коми
 const komi = document.querySelector(".map__komi-button");
@@ -165,37 +171,6 @@ function updateViewBox() {
 }
 updateViewBox();
 mq.addListener(updateViewBox);
-<<<<<<< HEAD
-
-
-=======
-//Вот накой черт я потратил на тебя столько времени?! надо быть внимательней....><
-var splide = new Splide("#splide-partners", {
-  type: "loop",
-  perPage: 6,
-  perMove: 1,
-  gap: 31.15,
-  pagination: 0,
-  fixedWidth: 97.98,
-  breakpoints: {
-    840: {
-      perPage: 5,
-      gap: 25.48,
-      fixedWidth: 78.96,
-    },
-    620: {
-      perPage: 4,
-      gap: 9.56,
-      fixedWidth: 51.63,
-    },
-  },
-  classes: {
-    prev: "splide__arrow--prev splide__arrow_partners_prev",
-    next: "splide__arrow--next splide__arrow_partners_next",
-  },
-});
-
-splide.mount();
 
 //анимация для блока fund//
 
@@ -212,4 +187,3 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 observer.observe(document.querySelector(".fund"));
->>>>>>> ea67c5dd6d51351b91de1cb8d4b4eefbd8c9f6cc

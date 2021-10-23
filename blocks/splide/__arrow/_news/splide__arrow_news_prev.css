@@ -1,6 +1,5 @@
 .splide__arrow_news_prev {
   background-image: url('../../../../images/slider_left_button.svg');
-  background-repeat: no-repeat;
   position:absolute;
   top: 50%;
   left: -15px;

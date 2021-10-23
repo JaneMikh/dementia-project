@@ -1,5 +1,6 @@
 .about__header {
   margin: 90px auto 0;
+  text-transform: uppercase;
   font-size: 42.6px;
   font-weight: 600;
   max-width: 320px;

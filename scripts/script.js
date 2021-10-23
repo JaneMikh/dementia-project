@@ -57,6 +57,7 @@ function isPartiallyVisible(el) {
 
 //   return ((top >= 0) && (bottom <= window.innerHeight));
 // }
+
 /*Конец - info*/
 //Открытие попап карты - Коми
 const komi = document.querySelector(".map__komi-button");

@@ -65,6 +65,7 @@
 @import url(../blocks/test/__img-notebook/test__img-notebook.css);
 @import url(../blocks/test/__img-button-border/test__img-button-border.css);
 @import url(../blocks/active/active.css);
+
 @import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css');
 
 /*Блок page*/

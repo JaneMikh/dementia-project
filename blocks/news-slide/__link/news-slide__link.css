@@ -1,0 +1,14 @@
+.news-slide__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #6d097a;
+  position: absolute;
+  right: 40px;
+  bottom: 25px;
+  cursor: url('../../../images/cursor.png'), auto;
+  transition: opacity .3s ease;
+}
+
+.news-slide__link:hover {
+  opacity: 0.7;
+}

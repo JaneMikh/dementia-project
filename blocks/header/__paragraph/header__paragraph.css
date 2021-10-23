@@ -1,13 +1,13 @@
 .header__paragraph {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
 .header__paragraph:first-child {
-    padding-top: 0;
+  padding-top: 0;
 }
 
-@media screen and (max-width:850px) {
-    .header__paragraph {
-        padding-top: 0;
-    }
+@media screen and (max-width: 850px) {
+  .header__paragraph {
+    padding-top: 0;
+  }
 }

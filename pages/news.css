@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/*Блок page-news*/
+@import url(../blocks/page-news/page-news.css);
+/*Блок news-header*/
+@import url(../blocks/news-header/news-header.css);
+@import url(../blocks/news-header/__logo-container/news-header__logo-container.css);
+@import url(../blocks/news-header/__logo/news-header__logo.css);
+@import url(../blocks/news-header/__link/news-header__link.css);
+@import url(../blocks/news-header/__link/_type/news-header__link_type_main.css);
+@import url(../blocks/news-header/__link/_type/news-header__link_type_active.css);
+@import url(../blocks/news-header/__site-name/news-header__site-name.css);
+@import url(../blocks/news-header/__first-letter/news-header__first-letter.css);
+@import url(../blocks/news-header/__last-letter/news-header__last-letter.css);
+@import url(../blocks/news-header/__text/news-header__text.css);
+@import url(../blocks/menu-news/menu-news.css);
+@import url(../blocks//news-header/__links/news-header__links.css);
+@import url(../blocks/news-header/__link-container/news-header__link-container.css);
+@import url(../blocks/news-header/__title/news-header__title.css);
+/*Блок news-articles*/
+@import url(../blocks/news-articles/news-articles.css);
+@import url(../blocks/news-decoration/news-decoration.css);
+/*Блоки news-decoration*/
+@import url(../blocks/news-decoration/__puzzle-purple-empty/news-decoration__puzzle-purple-empty.css);
+@import url(../blocks/news-decoration/__puzzle-purple-full/news-decoration__puzzle-purple-full.css);
+@import url(../blocks/news-decoration/__puzzle-green-empty/news-decoration__puzzle-green-empty.css);
+@import url(../blocks/news-decoration/__puzzle-green-full/news-decoration__puzzle-green-full.css);
+@import url(../blocks/news-decoration/__puzzle-blue-full/news-decoration__puzzle-blue-full.css);
+@import url(../blocks/news-decoration/__semicircle-purple-full/news-decoration__semicircle-purple-full.css);
+
+@import url(../blocks/news-articles/__background-green/news-articles__background-green.css);
+@import url(../blocks/news-articles/__background-purple/news-articles__background-purple.css);
+
+@import url(../blocks/news-slider/news-slider.css);
+@import url(../blocks/news-slider/__inner/news-slider__inner.css);
+@import url(../blocks/news-slide/news-slide.css);
+@import url(../blocks/news-slide/__image/news-slide__image.css);
+@import url(../blocks/news-slide/__title/news-slide__title.css);
+@import url(../blocks/news-slide/__subtitle/news-slide__subtitle.css);
+@import url(../blocks/news-slide/__date/news-slide__date.css);
+@import url(../blocks/news-slide/__link/news-slide__link.css);
+/*Блок news-footer*/
+@import url(../blocks/news-footer/news-footer.css);
+

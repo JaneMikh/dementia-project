@@ -1,45 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="authors" content="Вадим Литау, Терентьева Арина, Евгения Михайлюк, Евгений Черво, Александр Афанасьев">
     <meta name="description" content="Деменция">
+    <link rel="stylesheet" href="./pages/news.css">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./pages/article.css">
     <title>Деменция</title>
-</head>
-
-<body class="page-article">
-    <header class="header-article">
-        <div class="header__title-container">
-            <img src="images/icon_head_left_svg.svg" alt="Иконка" class="header__title-icon">
-            <h1 class="header__title"><a href="#" class="header__link header__link_type_main"><span class="header__first-letter">деменция</span><span class="header__last-letter">.net</span></a></h1>
-            <p class="header__title-text">Проект благотворительного&nbsp;фонда "Память&nbsp;поколений"</p>
-        </div>
-        <nav class="menu">
-            <ul class="header__links">
-                <li class="header__link-container"><a href="#" class="header__link header__link_type_button">О деменции</a></li>
-                <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Проекты</a></li>
-                <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Партнеры</a></li>
-                <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Новости</a></li>
-                <li class="header__link-container"><a href="#" class="header__link header__link_type_button">О фонде</a></li>
-                <li class="header__link-container"><a href="#" class="header__link header__link_type_button">Контакты</a></li>
-            </ul>
+  </head>
+  <body class="page-news">
+    <header class="news-header">
+      <div class="news-header__logo-container">
+        <a href="#" target="_blank" class="news-header__link">
+          <img src="images/icon_head_left.svg" alt="Логотип" class="news-header__logo">
+          <p class="news-header__site-name"><span class="news-header__first-letter">деменция</span><span class="news-header__last-letter">.net</span></p>
+        </a>
+        <p class="news-header__text">Проект благотворительного&nbsp;фонда "Память&nbsp;поколений"</p>
+      </div>
+        <nav class="menu-news">
+          <ul class="news-header__link-container">
+            <li class="news-header__links"><a href="#" class="news-header__link news-header__link_type_main news-header__link_type_active">О&nbsp;деменции</a></li>
+            <li class="news-header__links"><a href="#" class="news-header__link news-header__link_type_main">Проекты</a></li>
+            <li class="news-header__links"><a href="#" class="news-header__link news-header__link_type_main">Партнеры</a></li>
+            <li class="news-header__links"><a href="#" class="news-header__link news-header__link_type_main">Новости</a></li>
+            <li class="news-header__links"><a href="#" class="news-header__link news-header__link_type_main">О&nbsp;фонде</a></li>
+            <li class="news-header__links"><a href="#" class="news-header__link news-header__link_type_main">Контакты</a></li>
+          </ul>
         </nav>
+        <h1 class="news-header__title">Новости</h1>
     </header>
-    <div class="page-article__decoration"></div>
-    <main class="article">
-        <h1 class="article__title">Новости</h1>
-        <img src="./images/pazzle_article_fiolet.svg" class="article__pazzle-fiolet" alt="Декоративный элемент">
-        <img src="./images/article_pazzle_green.svg" class="article__pazzle-green" alt="Декоративный элемент">
-
+    <main class="news-articles">
+      <img src="./images/news_articles_puzzle_purple_empty.svg" class="news-decoration news-decoration__puzzle-purple-empty" alt="Декоративный элемент">
+      <img src="./images/news_articles_puzzle_purple_full.svg" class="news-decoration news-decoration__puzzle-purple-full" alt="Декоративный элемент">
+      <img src="./images/news_articles_puzzle_green_empty.svg" class="news-decoration news-decoration__puzzle-green-empty" alt="Декоративный элемент">
+      <img src="./images/news_articles_puzzle_green_full.svg" class="news-decoration news-decoration__puzzle-green-full" alt="Декоративный элемент">
+      <img src="./images/news_articles_puzzle_blue_full.svg" class="news-decoration news-decoration__puzzle-blue-full" alt="Декоративный элемент">
+      <img src="./images/news_articles_semicircle__purple_full.svg" class="news-decoration news-decoration__semicircle-purple-full" alt="Декоративный элемент">
+      <div class="news-articles__background-green"></div>
+      <div class="news-articles__background-purple"></div>
+      <div class="news-slider">
+        <ul class="news-slider__inner">
+          <li class="news-slide">
+            <img src="./images/women.jpg" alt="Ветеран войны" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_men_puzzle.jpg" alt="Мужчина собирает пазл" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_couple.jpg" alt="Супружеская пара" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_men_thinking.jpg" alt="Мужчина за столом" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_men_watch.jpg" alt="Мужчина за столом" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_men_portrait.jpg" alt="Мужчина за столом" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_men_portrait.jpg" alt="Фото мужчины" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_men_help.jpg" alt="Мужчине помогают встать" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+          <li class="news-slide">
+            <img src="./images/news_articles_men_sofa.jpg" alt="Мужчина с тростью, сидящий на диване" class="news-slide__image">
+            <h2 class="news-slide__title">Заголовок новости</h2>
+            <p class="news-slide__subtitle">Описание новости</p>
+            <p class="news-slide__date">25.09.2021</p>
+            <a href="#" target="_blank" class="news-slide__link">Подробнее</a>
+          </li>
+        </ul>
+      </div>
     </main>
-    <footer class="footer">
-
-    </footer>
+    <footer class="news-footer"></footer>
     <script src="./scripts/script.js"></script>
-</body>
-
+  </body>
 </html>
+

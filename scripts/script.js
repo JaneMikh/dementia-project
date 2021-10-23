@@ -14,7 +14,7 @@ komi.addEventListener('mouseout', () => {
 });
 
 //Изменение размера карты
-/*
+
 const originalViewBox = komiMap.getAttribute('transform');
 const mq = window.matchMedia("(max-width: 320px)");
 
@@ -28,5 +28,3 @@ function updateViewBox() {
 };
 updateViewBox();
 mq.addListener(updateViewBox);
-*/
-//Вот накой черт я потратил на тебя столько времени?! надо быть внимательней....><

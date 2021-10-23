@@ -1,21 +1,21 @@
 .header__link_type_article {
+  font-size: 6px;
+  text-transform: uppercase;
+  margin: 5px 0 0 0;
+  padding-left: 37px;
+  color: inherit;
+}
+
+@media screen and (max-width: 850px) {
+  .header__link_type_article {
+    font-size: 5px;
+    padding-left: 35px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .header__link_type_article {
+    padding-left: 30px;
     font-size: 6px;
-    text-transform: uppercase;
-    margin: 5px 0 0 0;
-    padding-left: 37px;
-    color: inherit;
-}
-
-@media screen and (max-width:850px) {
-    .header__link_type_article {
-        font-size: 5px;
-        padding-left: 35px;
-    }
-}
-
-@media screen and (max-width:639px) {
-    .header__link_type_article {
-        padding-left: 30px;
-        font-size: 6px;
-    }
+  }
 }

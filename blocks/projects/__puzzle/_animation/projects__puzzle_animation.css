@@ -1,0 +1,26 @@
+.projects__puzzle_animation {
+  animation-name: move-projects-puzzle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-projects-puzzle {
+  0% {
+    transform: translate(-200%);
+  }
+  25% {
+    transform: translate(-50%) rotate(45deg);
+  }
+  50% {
+    transform: translateX(100%) rotate(90deg);
+  }
+  75% {
+    transform: translate(250%) rotate(135deg);
+  }
+  100% {
+    transform: translateX(400%) rotate(180deg);
+  }
+}

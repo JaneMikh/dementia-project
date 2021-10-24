@@ -1,0 +1,8 @@
+.news-articles__background-green {
+  background-color: #cae6df;
+  position: absolute;
+  top: 0;
+  height: 773px;
+  width: 100%;
+  z-index: -1;
+}

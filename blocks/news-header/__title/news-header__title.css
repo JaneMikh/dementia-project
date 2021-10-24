@@ -1,0 +1,11 @@
+.news-header__title {
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
+  text-transform: uppercase;
+  color: #6d097a;
+  font-size: 85px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  align-self: center;
+  margin: 191px 0 65px;
+}

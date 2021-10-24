@@ -1,0 +1,44 @@
+.fund__link {
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
+  text-decoration: none;
+  background: url(../../../images/fund-button.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 11.3px 18.8px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 13.86px;
+  line-height: 13.86px;
+  color: #fefefe;
+  margin-left: 85px;
+  margin-top: 32px;
+  transition: 0.8s;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.fund__link:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+@media (max-width: 840px) {
+  .fund__link {
+    margin-top: 43.23px;
+    margin-left: 67px;
+    padding-left: 18.4px;
+    padding-right: 18.4px;
+  }
+}
+
+@media (max-width: 620px) {
+  .fund__link {
+    font-size: 8.86px;
+    line-height: 8.86px;
+    margin-left: 15.81px;
+    margin-right: 15px;
+    padding: 6px 12px;
+  }
+}

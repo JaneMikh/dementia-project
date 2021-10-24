@@ -1,0 +1,25 @@
+.about__header {
+  margin: 90px auto 0;
+  text-transform: uppercase;
+  font-family: 'GolosUI-Bold';
+  font-size: 42.6px;
+  max-width: 320px;
+  max-height: 56px;
+  color: #6D097A;
+}
+
+@media screen and (max-width: 889px) {
+  .about__header {
+    font-size: 33.87px;
+    margin-top: 42px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .about__header {
+    font-size: 23.06px;
+    margin-top: 26.11px;
+    margin-left: 0;
+  }
+}

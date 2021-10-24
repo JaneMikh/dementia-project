@@ -1,0 +1,7 @@
+.project-cards__item {
+  transition: transform 0.5s ease;
+}
+
+.project-cards__item:hover {
+  transform: scale(1.05);
+}

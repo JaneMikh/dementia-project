@@ -1,0 +1,7 @@
+.splide__arrow {
+  background: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: none;
+  cursor: url(../../../images/cursor.png), auto;
+}

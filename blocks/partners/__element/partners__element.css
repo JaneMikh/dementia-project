@@ -1,0 +1,27 @@
+.partners__element {
+  width: 70.16px;
+  height: 83.63px;
+  background-image: url(../../../images/partners-element.png);
+  background-size: cover;
+  position: absolute;
+  top: 28.57px;
+  right: 134.53px;
+}
+
+@media (max-width: 840px) {
+  .partners__element {
+    width: 70.15px;
+    height: 83.27px;
+    top: 39.11px;
+    right: 81.49px;
+  }
+}
+
+@media (max-width: 620px) {
+  .partners__element {
+    width: 30.87px;
+    height: 36.64px;
+    top: 21.71px;
+    left: 83.02px;
+  }
+}

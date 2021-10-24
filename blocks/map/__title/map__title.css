@@ -1,0 +1,23 @@
+.map__title {
+  color: #00926f;
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 100px 0 10px 105px;
+}
+
+@media (max-width: 840px) {
+  .map__title {
+    font-size: 34px;
+    padding: 53px 0 8px 40px;
+  }
+}
+
+@media (max-width: 620px) {
+  .map__title {
+    font-size: 23px;
+    padding: 33px 0 8px 23px;
+  }
+}

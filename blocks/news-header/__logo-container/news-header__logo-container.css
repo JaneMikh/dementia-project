@@ -1,0 +1,8 @@
+.news-header__logo-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 319px;
+  position: absolute;
+  top: 36px;
+  left: 146px;
+}

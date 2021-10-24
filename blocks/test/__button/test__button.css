@@ -1,0 +1,41 @@
+.test__button {
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
+  text-transform: uppercase;
+  margin: 202px 0 50px 70.5px;
+  padding-top: 9px;
+  width: 184px;
+  height: 42.852px;
+  font-weight: 700;
+  font-size: 16.39px;
+  border: none;
+  overflow: visible;
+  color: #FEFEFE;
+  background-color: #FEFEFE;
+  background-image: url("../../../images/Button.svg");
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 889px) {
+  .test__button {
+    margin: 0;
+    position: absolute;
+    top: 81px;
+    left: 280px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .test__button {
+    margin: 0;
+    position: absolute;
+    top: 81px;
+    left: calc(100% - 147px);
+    width: 106.8px;
+    height: 25px;
+    font-size: 9.56px;
+    padding-top: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

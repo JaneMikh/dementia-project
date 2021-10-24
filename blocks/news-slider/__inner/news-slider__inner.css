@@ -1,0 +1,11 @@
+.news-slider__inner {
+  margin: 0;
+  padding: 106px 0 112px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 593px);
+  grid-row-gap: 112px;
+  grid-column-gap: 43px;
+  max-width: 1472px;
+}

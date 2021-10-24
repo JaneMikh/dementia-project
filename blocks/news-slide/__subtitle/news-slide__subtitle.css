@@ -1,0 +1,10 @@
+.news-slide__subtitle {
+  font-family: 'GolosUI-Regular', 'Arial', 'Helvetica', sans-serif;
+  color: #5b5b5b;
+  font-size: 26px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  margin: 12px 0 0 9px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+.fund__text {
+  font-family: 'GolosUI-VF', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 64px;
+  font-weight: 400;
+  font-size: 10.66px;
+  line-height: 12.5px;
+  text-align: right;
+  color: #fefefe;
+}
+
+@media (max-width:840px) {
+  .fund__text {
+    font-size: 10.66px;
+    line-height: 14px;
+    margin-left: 17.73px;
+  }
+}
+
+@media (max-width: 620px) {
+  .fund__text {
+    font-size: 10.42px;
+    line-height: 16px;
+    margin-left: 0;
+  }
+}

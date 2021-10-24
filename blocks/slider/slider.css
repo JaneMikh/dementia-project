@@ -1,0 +1,21 @@
+.slider {
+  position: relative;
+  max-width: 745px;
+  margin: 0 auto;
+  margin-bottom: 66.78px;
+}
+
+@media (max-width: 840px) {
+  .slider {
+    max-width: 497px;
+    margin-bottom: 40.77px;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider {
+    max-width: 236.18px;
+    margin-bottom: 24.63px;
+  }
+}
+

@@ -1,0 +1,25 @@
+.map__map-name {
+  font-family: 'GolosUI-Regular', 'Arial', 'Helvetica', sans-serif;
+  color: #5b5b5b;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 27px;
+  padding-left: 105px;
+}
+
+@media (max-width: 840px) {
+  .map__map-name {
+    font-size: 12px;
+    padding-bottom: 21px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 620px) {
+  .map__map-name {
+    font-size: 10px;
+    padding-bottom: 9px;
+    padding-left: 23px;
+  }
+}

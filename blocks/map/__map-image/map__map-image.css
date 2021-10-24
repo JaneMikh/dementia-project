@@ -1,0 +1,24 @@
+.map__map-image {
+  background-image: url(../../../images/map/151-layers.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto 92px;
+  width: 691px;
+  height: 359px;
+}
+
+@media (max-width: 840px) {
+  .map__map-image {
+    width: 552px;
+    height: 287px;
+    margin: 0 auto 60px;
+  }
+}
+
+@media (max-width: 620px) {
+  .map__map-image {
+    width: 320px;
+    height: 150px;
+    margin: 0 0 26px 16px;
+  }
+}

@@ -1,0 +1,23 @@
+.definition__img-puzzle {
+  position: absolute;
+  top: 145px;
+  left: 51px;
+  transform: translate3d(0, 30px, 0);
+  opacity: 0;
+}
+
+@media screen and (max-width: 889px) {
+  .definition__img-puzzle {
+    top: 135px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .definition__img-puzzle {
+    top: 138px;
+    left: 10px;
+    width: 20%;
+    z-index: 1;
+  }
+}
+

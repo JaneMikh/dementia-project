@@ -1,6 +1,5 @@
 .fund__link {
   text-decoration: none;
-  cursor: pointer;
   background: url(../../../images/fund-button.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -16,6 +15,7 @@
   margin-top: 32px;
   transition: 0.8s;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .fund__link:hover {

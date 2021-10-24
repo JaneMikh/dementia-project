@@ -3,6 +3,7 @@
   height: 113px;
   object-position: center;
   object-fit: cover;
+  cursor: url(../../../images/cursor.png), auto;
 }
 
 @media all and (max-width: 840px) {

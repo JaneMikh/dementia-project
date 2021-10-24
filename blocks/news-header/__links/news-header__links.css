@@ -1,0 +1,10 @@
+.news-header__links {
+  max-width: 854px;
+  margin: 0 50px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.news-header__links:last-of-type {
+  margin-right: 0;
+}

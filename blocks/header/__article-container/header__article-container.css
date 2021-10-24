@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 850px) {
   .header__article-container {
     width: 180px;
     height: 70px;
@@ -16,7 +16,6 @@
     left: -10px;
   }
 }
-
 
 @media screen and (max-width: 639px) {
   .header__article-container {

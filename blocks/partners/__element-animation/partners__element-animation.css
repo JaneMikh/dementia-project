@@ -1,0 +1,21 @@
+@keyframes move-partners-element {
+    0% {
+      transform: translate(-100%);
+    }
+    25% {
+      transform: translate(-50%) rotate(45deg);
+    }
+    50% {
+      transform: translateX(0%) rotate(90deg);
+    }
+    75% {
+      transform: translate(50%) rotate(140deg);
+    }
+    100% {
+      transform: translateX(100%) rotate(180deg);
+    }
+  }
+
+.partners__element-animation {
+  animation: move-partners-element 12s linear infinite alternate forwards;
+}

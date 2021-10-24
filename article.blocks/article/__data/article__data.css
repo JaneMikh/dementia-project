@@ -1,0 +1,11 @@
+.article__data {
+  font-family: 'GolosUI-Regular', 'Arial', 'Helvetica', sans-serif;
+  max-width: 192px;
+  height: 40px;
+  font-size: 26px;
+  padding: 12px 0 0 0;
+  border-top: 4px solid #808080;
+  margin: 0 auto;
+  text-align: center;
+  color: #666;
+}

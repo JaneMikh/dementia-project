@@ -1,0 +1,15 @@
+@import url(../article.blocks/article/article.css);
+@import url(../article.blocks/article/__title/article__title.css);
+@import url(../article.blocks/header-article/header-article.css);
+@import url(../article.blocks/page-article/page-article.css);
+@import url(../article.blocks/article/__data/article__data.css);
+@import url(../article.blocks/page-article/__decoration/article__decoration.css);
+@import url(../article.blocks/article/__image/article__image.css);
+@import url(../article.blocks/article/__pazzle-fiolet/article__pazzle-fiolet.css);
+@import url(../article.blocks/article/__pazzle-green/article__pazzle-green.css);
+@import url(../article.blocks/article/__text/article__text.css);
+@import url(../article.blocks/article/__introduction/article__introduction.css);
+@import url(../article.blocks/article/__image-container/article__image-container.css);
+@import url(../article.blocks/article/__link/article__link.css);
+@import url(../article.blocks/footer-article/footer-article.css);
+@import url(../article.blocks/article/__text-link/article__text-link.css);

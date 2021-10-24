@@ -1,0 +1,30 @@
+.projects__puzzle {
+  background-image: url(../../../images/projects_puzzle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 76px;
+  height: 77px;
+  position: absolute;
+  top: 97px;
+  left: 180px;
+  z-index: 1;
+}
+
+@media all and (max-width: 840px) {
+  .projects__puzzle {
+    width: 67px;
+    height: 68px;
+    top: 144px;
+    left: 106px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__puzzle {
+    width: 44px;
+    height: 45px;
+    top: 70px;
+    left: 23px;
+  }
+}

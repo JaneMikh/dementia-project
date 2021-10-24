@@ -1,0 +1,6 @@
+.splide__arrow_news_next {
+  background-image:url('../../../../images/slider_right_button.svg');
+  position:absolute;
+  top: 45%;
+  right: -15px;
+}

@@ -1,0 +1,26 @@
+.projects__title {
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #00926f;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 106px 107px 12px 0;
+  align-self: flex-end;
+  z-index: 2;
+}
+
+@media all and (max-width: 840px) {
+  .projects__title {
+    margin: 148px 41px 9px 0;
+    font-size: 34px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .projects__title {
+    margin: 72px 31px 6px 0;
+    font-size: 23px;
+  }
+}

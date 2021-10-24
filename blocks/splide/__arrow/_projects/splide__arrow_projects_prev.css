@@ -1,0 +1,6 @@
+.splide__arrow_projects_prev {
+  background-image: url('../../../../images/slider_left_button.svg');
+  position:absolute;
+  top: 40%;
+  left: -15px;
+}

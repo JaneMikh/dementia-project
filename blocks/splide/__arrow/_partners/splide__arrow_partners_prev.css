@@ -1,0 +1,20 @@
+.splide__arrow_partners_prev {
+  background-image: url("../../../../images/button-slider-right.svg");
+  position: absolute;
+  top: 33.26px;
+  left: -39.66px;
+}
+
+@media (max-width: 840px) {
+  .splide__arrow_partners_prev {
+    top: 29.8px;
+    left: -25.53px;
+  }
+}
+
+@media (max-width: 620px) {
+  .splide__arrow_partners_prev {
+    top: 16.09px;
+    left: -12.05px;
+  }
+}

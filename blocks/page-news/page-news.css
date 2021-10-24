@@ -1,0 +1,12 @@
+.page-news {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "Golos-UI", "Arial", sans-serif;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  cursor: url('../../images/cursor.png'), auto;
+}

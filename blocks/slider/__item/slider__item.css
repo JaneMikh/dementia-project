@@ -1,0 +1,16 @@
+.slider__item {
+  box-sizing: border-box;
+  height: 97.98px;
+}
+
+@media (max-width: 840px) {
+  .slider__item {
+    height: 78.96px;
+  }
+}
+
+@media (max-width: 620px) {
+  .slider__item {
+    height: 51.5px;
+  }
+}

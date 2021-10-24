@@ -1,0 +1,32 @@
+.news-card__link {
+  font-family: 'GolosUI-Regular', 'Arial', 'Helvetica', sans-serif;
+  text-decoration-line: none;
+  text-transform: uppercase;
+  color: #6d097a;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  position: absolute;
+  right: 16px;
+  bottom: 13px;
+  cursor: url(../../../images/cursor.png), auto;
+  transition: opacity .3s ease;
+}
+
+.news-card__link:hover {
+  opacity: 0.6;
+}
+
+@media all and (max-width: 840px) {
+  .news-card__link {
+    font-size: 8px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .news-card__link {
+    font-size: 6px;
+    bottom: 10px;
+  }
+}

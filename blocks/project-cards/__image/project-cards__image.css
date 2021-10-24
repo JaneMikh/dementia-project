@@ -1,0 +1,21 @@
+.project-cards__image {
+  width: 147px;
+  height: 113px;
+  object-position: center;
+  object-fit: cover;
+  cursor: url(../../../images/cursor.png), auto;
+}
+
+@media all and (max-width: 840px) {
+  .project-cards__image {
+    width: 135px;
+    height: 103px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .project-cards__image {
+    width: 96px;
+    height: 75px;
+  }
+}

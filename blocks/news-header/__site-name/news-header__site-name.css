@@ -1,0 +1,9 @@
+.news-header__site-name {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}

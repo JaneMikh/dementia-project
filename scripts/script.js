@@ -226,20 +226,6 @@ komi.addEventListener("mouseout", () => {
   komiMap.style.fill = "#9a34a8";
 });
 
-//Изменение размера карты
-const originalViewBox = komiMap.getAttribute("transform");
-const mq = window.matchMedia("(max-width: 320px)");
-
-function updateViewBox() {
-  if (mq.matches) {
-    komiMap.setAttribute("transform", "scale(0.88)");
-  } else {
-    komiMap.setAttribute("transform", originalViewBox);
-  }
-}
-updateViewBox();
-mq.addListener(updateViewBox);
-
 //анимация для блока fund//
 
 const observer = new IntersectionObserver((entries) => {

@@ -78,12 +78,12 @@
 /*Блок news*/
 @import url(../blocks/splide/splide.css);
 @import url(../blocks/splide/__arrow/splide__arrow.css);
-@import url(../blocks/splide/__arrow/_news/splide__arrow_news.css);
+@import url(../blocks/splide/__arrow-news/splide__arrow-news.css);
 @import url(../blocks/splide/__arrow/_news/splide__arrow_news_prev.css);
 @import url(../blocks/splide/__arrow/_news/splide__arrow_news_next.css);
 /*Блок projects*/
 @import url(../blocks/splide/__projects/splide__projects.css);
-@import url(../blocks/splide/__arrow/_projects/splide__arrow_projects.css);
+@import url(../blocks/splide/__arrow-projects/splide__arrow-projects.css);
 @import url(../blocks/splide/__arrow/_projects/splide__arrow_projects_prev.css);
 @import url(../blocks/splide/__arrow/_projects/splide__arrow_projects_next.css);
 
@@ -143,7 +143,7 @@
 @import url(../blocks/partners/__element-animation/partners__element-animation.css);
 
 /*Стили для слайдера в блоке partners*/
-@import url(../blocks/splide/__arrow/_partners/splide__arrow_partners.css);
+@import url(../blocks/splide/__arrow-partners/splide__arrow-partners.css);
 @import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_next.css);
 @import url(../blocks/splide/__arrow/_partners/splide__arrow_partners_prev.css);
 

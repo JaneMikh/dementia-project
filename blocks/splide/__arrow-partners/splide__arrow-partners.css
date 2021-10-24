@@ -1,17 +1,17 @@
-.splide__arrow_partners {
+.splide__arrow-partners {
   width: 12px;
   height: 23px;
 }
 
 @media (max-width: 840px) {
-  .splide__arrow_partners  {
+  .splide__arrow-partners  {
     width: 9.86px;
     height: 19.73px;
   }
 }
 
 @media (max-width: 620px) {
-  .splide__arrow_partners {
+  .splide__arrow-partners {
     width: 8.76px;
     height: 17.51px;
   }

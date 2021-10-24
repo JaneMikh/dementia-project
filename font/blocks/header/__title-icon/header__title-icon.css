@@ -1,0 +1,17 @@
+.header__title-icon {
+  margin: 21px 0 0 27px;
+}
+
+@media screen and (max-width:850px) {
+  .header__title-icon {
+    width: 121px;
+    margin: 25px 0 1px 13px;
+  }
+}
+
+@media screen and (max-width:639px) {
+  .header__title-icon {
+    width: 105px;
+    margin: 24px 0 1px 8px;
+  }
+}

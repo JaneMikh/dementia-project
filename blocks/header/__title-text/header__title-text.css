@@ -1,5 +1,6 @@
 .header__title-text {
-  width: 100px;
+  font-family: 'GolosUI-Regular', 'Arial', 'Helvetica', sans-serif;
+  width: 80px;
   text-align: right;
   text-transform: uppercase;
   font-size: 5px;

@@ -1,9 +1,10 @@
 .test__header {
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
   margin: 0;
   width: 161px;
   font-size: 29.46px;
   line-height: 29.46px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: right;
   text-transform: uppercase;
   align-items: flex-end;

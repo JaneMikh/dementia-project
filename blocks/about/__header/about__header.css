@@ -1,8 +1,8 @@
 .about__header {
   margin: 90px auto 0;
   text-transform: uppercase;
+  font-family: 'GolosUI-Bold';
   font-size: 42.6px;
-  font-weight: 600;
   max-width: 320px;
   max-height: 56px;
   color: #6D097A;

@@ -1,0 +1,9 @@
+@keyframes flicker-white {
+  50%, 100% {
+    filter: invert(30%) sepia(97%) saturate(565%) hue-rotate(193deg) brightness(83%) contrast(87%);
+  }
+}
+
+.header__flicker-white {
+  animation: flicker-white cubic-bezier(.68,.1,.4,.96) 5s infinite alternate;
+}

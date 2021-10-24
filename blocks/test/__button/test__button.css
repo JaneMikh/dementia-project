@@ -1,9 +1,11 @@
 .test__button {
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
+  text-transform: uppercase;
   margin: 202px 0 50px 70.5px;
   padding-top: 9px;
   width: 184px;
   height: 42.852px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16.39px;
   border: none;
   overflow: visible;

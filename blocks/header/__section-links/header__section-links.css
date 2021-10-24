@@ -1,9 +1,9 @@
 .header__section-links {
   grid-area: article;
-  /* background-image: url(../../../images/pietro-schellino-MeQ6cKkozpY-unsplash\ \(1\).jpg);
+  background-image: url(../../../images/pietro-schellino-MeQ6cKkozpY-unsplash\ \(1\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; */
+  background-position: center center;
   position: relative;
 }
 

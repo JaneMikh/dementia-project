@@ -1,7 +1,7 @@
 .header__semicircle-white {
   position: absolute;
   right: 12px;
-  top: -22px
+  top: -22px;
 }
 
 @media screen and (max-width:850px) {

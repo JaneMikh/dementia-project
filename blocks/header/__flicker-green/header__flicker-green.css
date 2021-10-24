@@ -1,0 +1,9 @@
+@keyframes flicker-green {
+  50%, 100% {
+    filter: invert(52%) sepia(170%) saturate(500%) hue-rotate(101deg) brightness(109%) contrast(97%);
+  }
+}
+
+.header__flicker-green {
+  animation: flicker-green cubic-bezier(.68,.1,.4,.96) 4s infinite alternate;
+}

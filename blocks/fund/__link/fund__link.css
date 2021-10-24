@@ -1,4 +1,5 @@
 .fund__link {
+  font-family: 'GolosUI-Bold', 'Arial', 'Helvetica', sans-serif;
   text-decoration: none;
   background: url(../../../images/fund-button.png);
   background-position: center;
@@ -11,7 +12,7 @@
   font-size: 13.86px;
   line-height: 13.86px;
   color: #fefefe;
-  margin-left: 130px;
+  margin-left: 85px;
   margin-top: 32px;
   transition: 0.8s;
   text-transform: uppercase;

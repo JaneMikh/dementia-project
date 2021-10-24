@@ -1,5 +1,17 @@
-.footer-article {
+.footer {
   width: 100%;
-  height: 226px;
+  height: 228px;
   background-color: #ebecec
+}
+
+@media (max-width: 840px) {
+  .footer {
+    height: 183px;
+  }
+}
+
+@media (max-width: 620px) {
+  .footer {
+    height: 151px;
+  }
 }
